@@ -1,4 +1,4 @@
-﻿Log file open, 05/20/20 15:26:59
+﻿Log file open, 05/20/20 16:11:54
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -9,7 +9,7 @@ LogConsoleResponse: Display: Failed to find resolution value strings in scalabil
 LogInit: Display: Running engine for game: MatrixUnrealEngine
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.100316
+LogStats: Stats thread started at 0.200906
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +3:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -163,431 +163,722 @@ LogInit: Presizing for max 25165824 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2020.05.20-12.26.59:738][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2020.05.20-12.26.59:738][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2020.05.20-12.26.59:738][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/Config/Windows/Engine.ini]
-[2020.05.20-12.26.59:738][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2020.05.20-12.26.59:738][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/Config/Windows/Engine.ini]
-[2020.05.20-12.26.59:738][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/Config/Windows/Engine.ini]
-[2020.05.20-12.26.59:738][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2020.05.20-12.26.59:738][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2020.05.20-12.26.59:738][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2020.05.20-12.26.59:738][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2020.05.20-12.26.59:738][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2020.05.20-12.26.59:738][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2020.05.20-12.26.59:738][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2020.05.20-12.26.59:738][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2020.05.20-12.26.59:738][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2020.05.20-12.26.59:738][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2020.05.20-12.26.59:738][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2020.05.20-12.26.59:738][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2020.05.20-12.26.59:738][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2020.05.20-12.26.59:738][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
-[2020.05.20-12.26.59:738][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/Config/Windows/Engine.ini]
-[2020.05.20-12.26.59:738][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2020.05.20-12.26.59:738][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2020.05.20-12.26.59:738][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2020.05.20-12.26.59:738][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2020.05.20-12.26.59:738][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2020.05.20-12.26.59:738][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2020.05.20-12.26.59:738][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
-[2020.05.20-12.26.59:738][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2020.05.20-12.26.59:738][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2020.05.20-12.26.59:738][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2020.05.20-12.26.59:738][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2020.05.20-12.26.59:738][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2020.05.20-12.26.59:738][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2020.05.20-12.26.59:738][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/Config/Windows/Engine.ini]
-[2020.05.20-12.26.59:738][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/Config/Windows/Engine.ini]
-[2020.05.20-12.26.59:742][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/Config/Windows/Scalability.ini]
-[2020.05.20-12.26.59:742][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.05.20-12.26.59:742][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.05.20-12.26.59:742][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/Config/Windows/Scalability.ini]
-[2020.05.20-12.26.59:742][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.05.20-12.26.59:742][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/Config/Windows/Scalability.ini]
-[2020.05.20-12.26.59:742][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.05.20-12.26.59:742][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.05.20-12.26.59:742][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.05.20-12.26.59:742][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.05.20-12.26.59:742][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.05.20-12.26.59:742][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.05.20-12.26.59:742][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.05.20-12.26.59:742][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.05.20-12.26.59:742][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.05.20-12.26.59:742][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.05.20-12.26.59:742][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.05.20-12.26.59:742][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.05.20-12.26.59:742][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.05.20-12.26.59:742][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.05.20-12.26.59:742][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.05.20-12.26.59:742][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.05.20-12.26.59:742][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.05.20-12.26.59:742][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.05.20-12.26.59:742][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/Config/Windows/Scalability.ini]
-[2020.05.20-12.26.59:742][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.05.20-12.26.59:742][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.05.20-12.26.59:742][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.05.20-12.26.59:742][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.05.20-12.26.59:742][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.05.20-12.26.59:742][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.05.20-12.26.59:742][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.05.20-12.26.59:742][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.05.20-12.26.59:742][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.05.20-12.26.59:742][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.05.20-12.26.59:742][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.05.20-12.26.59:742][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.05.20-12.26.59:742][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.05.20-12.26.59:742][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.05.20-12.26.59:742][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.05.20-12.26.59:742][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.05.20-12.26.59:742][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.05.20-12.26.59:742][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.05.20-12.26.59:742][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.05.20-12.26.59:742][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.05.20-12.26.59:742][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.05.20-12.26.59:742][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.05.20-12.26.59:742][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.05.20-12.26.59:742][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.05.20-12.26.59:742][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.05.20-12.26.59:742][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.05.20-12.26.59:742][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.05.20-12.26.59:742][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.05.20-12.26.59:743][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.05.20-12.26.59:743][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.05.20-12.26.59:743][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/Config/Windows/Scalability.ini]
-[2020.05.20-12.26.59:743][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.05.20-12.26.59:743][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.05.20-12.26.59:743][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.05.20-12.26.59:743][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.05.20-12.26.59:743][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.05.20-12.26.59:743][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.05.20-12.26.59:743][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.05.20-12.26.59:743][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.05.20-12.26.59:743][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.05.20-12.26.59:743][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/Config/Windows/Scalability.ini]
-[2020.05.20-12.26.59:743][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.05.20-12.26.59:743][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.05.20-12.26.59:743][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.05.20-12.26.59:743][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.05.20-12.26.59:743][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.05.20-12.26.59:743][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.05.20-12.26.59:743][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.05.20-12.26.59:743][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.05.20-12.26.59:743][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.05.20-12.26.59:743][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.05.20-12.26.59:743][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.05.20-12.26.59:743][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2020.05.20-12.26.59:743][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.05.20-12.26.59:743][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.05.20-12.26.59:743][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.05.20-12.26.59:743][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.05.20-12.26.59:743][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.05.20-12.26.59:743][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.05.20-12.26.59:743][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.05.20-12.26.59:743][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.05.20-12.26.59:743][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.05.20-12.26.59:743][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.05.20-12.26.59:743][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.05.20-12.26.59:743][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.05.20-12.26.59:743][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.05.20-12.26.59:743][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.05.20-12.26.59:743][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/Config/Windows/Scalability.ini]
-[2020.05.20-12.26.59:743][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.05.20-12.26.59:743][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.05.20-12.26.59:743][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/Config/Windows/Scalability.ini]
-[2020.05.20-12.26.59:743][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.05.20-12.26.59:743][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.05.20-12.26.59:743][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.05.20-12.26.59:743][  0]LogInit: Selected Device Profile: [Windows]
-[2020.05.20-12.26.59:743][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2020.05.20-12.26.59:747][  0]LogHAL: Display: Platform has ~ 8 GB [8474996736 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2020.05.20-12.26.59:747][  0]LogInit: Going up to parent DeviceProfile []
-[2020.05.20-12.26.59:747][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@2] File [C:/Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/Config/Windows/Scalability.ini]
-[2020.05.20-12.26.59:747][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.05.20-12.26.59:747][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:0.8]]
-[2020.05.20-12.26.59:747][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@2] File [C:/Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/Config/Windows/Scalability.ini]
-[2020.05.20-12.26.59:747][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:3]]
-[2020.05.20-12.26.59:747][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@1] File [C:/Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/Config/Windows/Scalability.ini]
-[2020.05.20-12.26.59:747][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.05.20-12.26.59:747][  0]LogConfig: Setting CVar [[r.ShadowQuality:3]]
-[2020.05.20-12.26.59:747][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:1]]
-[2020.05.20-12.26.59:747][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:1024]]
-[2020.05.20-12.26.59:747][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:1024]]
-[2020.05.20-12.26.59:747][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.05]]
-[2020.05.20-12.26.59:747][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:0.7]]
-[2020.05.20-12.26.59:747][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:0.25]]
-[2020.05.20-12.26.59:747][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:0.5]]
-[2020.05.20-12.26.59:747][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:0]]
-[2020.05.20-12.26.59:747][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:0]]
-[2020.05.20-12.26.59:747][  0]LogConfig: Setting CVar [[r.VolumetricFog:0]]
-[2020.05.20-12.26.59:747][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:.5]]
-[2020.05.20-12.26.59:747][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.05.20-12.26.59:747][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@0] File [C:/Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/Config/Windows/Scalability.ini]
-[2020.05.20-12.26.59:747][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:0]]
-[2020.05.20-12.26.59:747][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:1.0]]
-[2020.05.20-12.26.59:747][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:0]]
-[2020.05.20-12.26.59:747][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:0]]
-[2020.05.20-12.26.59:747][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.2]]
-[2020.05.20-12.26.59:747][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:0]]
-[2020.05.20-12.26.59:747][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:300]]
-[2020.05.20-12.26.59:747][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
-[2020.05.20-12.26.59:747][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
-[2020.05.20-12.26.59:747][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:0]]
-[2020.05.20-12.26.59:747][  0]LogConfig: Setting CVar [[r.BloomQuality:4]]
-[2020.05.20-12.26.59:747][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:0]]
-[2020.05.20-12.26.59:747][  0]LogConfig: Setting CVar [[r.Upscale.Quality:1]]
-[2020.05.20-12.26.59:747][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:0]]
-[2020.05.20-12.26.59:747][  0]LogConfig: Setting CVar [[r.LightShaftQuality:0]]
-[2020.05.20-12.26.59:747][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:0.6]]
-[2020.05.20-12.26.59:747][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:0]]
-[2020.05.20-12.26.59:747][  0]LogConfig: Applying CVar settings from Section [TextureQuality@2] File [C:/Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/Config/Windows/Scalability.ini]
-[2020.05.20-12.26.59:747][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.05.20-12.26.59:747][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.05.20-12.26.59:747][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.05.20-12.26.59:747][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.05.20-12.26.59:747][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:4]]
-[2020.05.20-12.26.59:748][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.05.20-12.26.59:748][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:1]]
-[2020.05.20-12.26.59:748][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:800]]
-[2020.05.20-12.26.59:748][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.05.20-12.26.59:748][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@0] File [C:/Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/Config/Windows/Scalability.ini]
-[2020.05.20-12.26.59:748][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:24]]
-[2020.05.20-12.26.59:748][  0]LogConfig: Setting CVar [[r.RefractionQuality:0]]
-[2020.05.20-12.26.59:748][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
-[2020.05.20-12.26.59:748][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:1]]
-[2020.05.20-12.26.59:748][  0]LogConfig: Setting CVar [[r.SceneColorFormat:3]]
-[2020.05.20-12.26.59:748][  0]LogConfig: Setting CVar [[r.DetailMode:0]]
-[2020.05.20-12.26.59:748][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
-[2020.05.20-12.26.59:748][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:0 ; Low quality]]
-[2020.05.20-12.26.59:748][  0]LogConfig: Setting CVar [[r.SSS.Scale:0]]
-[2020.05.20-12.26.59:748][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:0]]
-[2020.05.20-12.26.59:748][  0]LogConfig: Setting CVar [[r.SSS.Quality:0]]
-[2020.05.20-12.26.59:748][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2020.05.20-12.26.59:748][  0]LogConfig: Setting CVar [[r.SSGI.Quality:0]]
-[2020.05.20-12.26.59:748][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:0.125]]
-[2020.05.20-12.26.59:748][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:0]]
-[2020.05.20-12.26.59:748][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.05.20-12.26.59:748][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.05.20-12.26.59:748][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:8.0]]
-[2020.05.20-12.26.59:748][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.05.20-12.26.59:748][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:2.0]]
-[2020.05.20-12.26.59:748][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:16.0]]
-[2020.05.20-12.26.59:748][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:2.0]]
-[2020.05.20-12.26.59:748][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:16.0]]
-[2020.05.20-12.26.59:748][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:1]]
-[2020.05.20-12.26.59:748][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.05.20-12.26.59:748][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.05.20-12.26.59:748][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@2] File [C:/Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/Config/Windows/Scalability.ini]
-[2020.05.20-12.26.59:748][  0]LogConfig: Setting CVar [[foliage.DensityScale:0.8]]
-[2020.05.20-12.26.59:748][  0]LogConfig: Setting CVar [[grass.DensityScale:0.8]]
-[2020.05.20-12.26.59:748][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@0] File [C:/Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/Config/Windows/Scalability.ini]
-[2020.05.20-12.26.59:748][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:8]]
-[2020.05.20-12.26.59:748][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.05.20-12.26.59:748][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:8]]
-[2020.05.20-12.26.59:748][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2020.05.20-12.26.59:749][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2020.05.20-12.26.59:749][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2020.05.20-12.26.59:749][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/Config/Windows/Engine.ini]
-[2020.05.20-12.26.59:749][  0]LogInit: Computer: DESKTOP-E0Q7MOB
-[2020.05.20-12.26.59:749][  0]LogInit: User: pavtiger
-[2020.05.20-12.26.59:749][  0]LogInit: CPU Page size=4096, Cores=4
-[2020.05.20-12.26.59:749][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2020.05.20-12.26.59:749][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2020.05.20-12.26.59:749][  0]LogMemory: Platform Memory Stats for Windows
-[2020.05.20-12.26.59:749][  0]LogMemory: Process Physical Memory: 104.55 MB used, 104.55 MB peak
-[2020.05.20-12.26.59:749][  0]LogMemory: Process Virtual Memory: 100.51 MB used, 100.51 MB peak
-[2020.05.20-12.26.59:749][  0]LogMemory: Physical Memory: 4865.84 MB used,  3216.54 MB free, 8082.39 MB total
-[2020.05.20-12.26.59:749][  0]LogMemory: Virtual Memory: 5152.19 MB used,  134212576.00 MB free, 134217728.00 MB total
-[2020.05.20-12.26.59:752][  0]LogWindows: WindowsPlatformFeatures enabled
-[2020.05.20-12.26.59:793][  0]LogInit: Using OS detected language (en-US).
-[2020.05.20-12.26.59:793][  0]LogInit: Using OS detected locale (en-US).
-[2020.05.20-12.26.59:795][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2020.05.20-12.27.00:122][  0]LogInit: Setting process to per monitor DPI aware
-[2020.05.20-12.27.00:158][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2020.05.20-12.27.00:158][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2020.05.20-12.27.00:593][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.05.20-12.27.00:594][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
-[2020.05.20-12.27.00:594][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
-[2020.05.20-12.27.00:594][  0]LogD3D11RHI: D3D11 adapters:
-[2020.05.20-12.27.00:718][  0]LogD3D11RHI:    0. 'Intel(R) UHD Graphics 620' (Feature Level 11_0)
-[2020.05.20-12.27.00:718][  0]LogD3D11RHI:       128/0/4041 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
-[2020.05.20-12.27.00:721][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2020.05.20-12.27.00:721][  0]LogD3D11RHI:       0/0/4041 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2020.05.20-12.27.00:721][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2020.05.20-12.27.00:728][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2020.05.20-12.27.00:728][  0]LogD3D11RHI:     GPU DeviceId: 0x5917 (for the marketing name, search the web for "GPU Device Id")
-[2020.05.20-12.27.00:728][  0]LogWindows: EnumDisplayDevices:
-[2020.05.20-12.27.00:728][  0]LogWindows:    0. 'Intel(R) UHD Graphics 620' (P:1 D:1)
-[2020.05.20-12.27.00:729][  0]LogWindows:    1. 'Intel(R) UHD Graphics 620' (P:0 D:0)
-[2020.05.20-12.27.00:729][  0]LogWindows:    2. 'Intel(R) UHD Graphics 620' (P:0 D:0)
-[2020.05.20-12.27.00:729][  0]LogWindows: DebugString: FoundDriverCount:3 
-[2020.05.20-12.27.00:729][  0]LogD3D11RHI:     Adapter Name: Intel(R) UHD Graphics 620
-[2020.05.20-12.27.00:729][  0]LogD3D11RHI:   Driver Version: 26.20.100.7810 (internal:26.20.100.7810, unified:26.20.100.7810)
-[2020.05.20-12.27.00:729][  0]LogD3D11RHI:      Driver Date: 1-21-2020
-[2020.05.20-12.27.00:729][  0]LogRHI: Texture pool is 1504 MB (70% of 2148 MB)
-[2020.05.20-12.27.00:871][  0]LogD3D11RHI: RHI does not have support for 64 bit atomics
-[2020.05.20-12.27.00:872][  0]LogD3D11RHI: [IntelMetricsDiscovery] Started
-[2020.05.20-12.27.00:872][  0]LogD3D11RHI: Async texture creation enabled
-[2020.05.20-12.27.00:880][  0]LogD3D11RHI: GPU Timing Frequency: 12.000048 (Debug: 2 0)
-[2020.05.20-12.27.01:313][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
-[2020.05.20-12.27.01:352][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
-[2020.05.20-12.27.01:352][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
-[2020.05.20-12.27.01:352][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
-[2020.05.20-12.27.01:352][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
-[2020.05.20-12.27.01:352][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
-[2020.05.20-12.27.01:352][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
-[2020.05.20-12.27.01:352][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
-[2020.05.20-12.27.01:352][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
-[2020.05.20-12.27.01:352][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
-[2020.05.20-12.27.01:352][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
-[2020.05.20-12.27.01:352][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
-[2020.05.20-12.27.01:352][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
-[2020.05.20-12.27.01:352][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
-[2020.05.20-12.27.01:352][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
-[2020.05.20-12.27.01:352][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
-[2020.05.20-12.27.01:352][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
-[2020.05.20-12.27.01:352][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
-[2020.05.20-12.27.01:352][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
-[2020.05.20-12.27.01:379][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
-[2020.05.20-12.27.01:379][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
-[2020.05.20-12.27.01:390][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
-[2020.05.20-12.27.01:400][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
-[2020.05.20-12.27.01:409][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
-[2020.05.20-12.27.01:420][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
-[2020.05.20-12.27.01:429][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
-[2020.05.20-12.27.01:438][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
-[2020.05.20-12.27.01:467][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
-[2020.05.20-12.27.01:467][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
-[2020.05.20-12.27.01:483][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
-[2020.05.20-12.27.01:483][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
-[2020.05.20-12.27.01:493][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
-[2020.05.20-12.27.01:504][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
-[2020.05.20-12.27.01:513][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
-[2020.05.20-12.27.01:522][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
-[2020.05.20-12.27.01:522][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2020.05.20-12.27.01:530][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2020.05.20-12.27.01:581][  0]LogShaderCompilers: Guid format shader working directory is -29 characters bigger than the processId version (../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Intermediate/Shaders/WorkingDirectory/10096/).
-[2020.05.20-12.27.01:581][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Pavel/AppData/Local/Temp/UnrealShaderWorkingDir/1E3DA1D74D985F66A2AC0C9218D48593/'.
-[2020.05.20-12.27.01:582][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2020.05.20-12.27.01:583][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2020.05.20-12.27.01:583][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2020.05.20-12.27.02:603][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2020.05.20-12.27.02:809][  0]LogDerivedDataCache: Loaded boot cache 0.21s 78MB C:/Users/Pavel/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
-[2020.05.20-12.27.02:809][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Pavel/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
-[2020.05.20-12.27.02:809][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2020.05.20-12.27.02:809][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2020.05.20-12.27.02:809][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.05.20-12.27.02:809][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2020.05.20-12.27.02:821][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2020.05.20-12.27.02:821][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.05.20-12.27.02:821][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2020.05.20-12.27.02:822][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Pavel/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2020.05.20-12.27.02:822][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2020.05.20-12.27.02:822][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2020.05.20-12.27.02:848][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2020.05.20-12.27.02:850][  0]LogSlate: Using FreeType 2.10.0
-[2020.05.20-12.27.02:855][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2020.05.20-12.27.03:037][  0]LogAssetRegistry: FAssetRegistry took 0.0025 seconds to start up
-[2020.05.20-12.27.03:387][  0]LogInit: Selected Device Profile: [Windows]
-[2020.05.20-12.27.03:604][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2020.05.20-12.27.03:604][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2020.05.20-12.27.03:604][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2020.05.20-12.27.03:604][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2020.05.20-12.27.03:604][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2020.05.20-12.27.03:618][  0]LogNetVersion: MatrixUnrealEngine 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 1501902636)
-[2020.05.20-12.27.05:706][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.038788 seconds
-[2020.05.20-12.27.05:714][  0]LogUObjectArray: 46750 objects as part of root set at end of initial load.
-[2020.05.20-12.27.05:714][  0]LogUObjectAllocator: 8137160 out of 0 bytes used by permanent object pool.
-[2020.05.20-12.27.05:714][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2020.05.20-12.27.06:278][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2020.05.20-12.27.06:281][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2020.05.20-12.27.06:358][  0]SourceControl: Source control is disabled
-[2020.05.20-12.27.06:358][  0]SourceControl: Source control is disabled
-[2020.05.20-12.27.06:362][  0]SourceControl: Source control is disabled
-[2020.05.20-12.27.06:364][  0]SourceControl: Source control is disabled
-[2020.05.20-12.27.06:366][  0]SourceControl: Source control is disabled
-[2020.05.20-12.27.06:501][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2020.05.20-12.27.06:517][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.05.20-12.27.06:517][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.05.20-12.27.06:618][  0]LogOcInput: OculusInput pre-init called
-[2020.05.20-12.27.06:629][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
-[2020.05.20-12.27.06:629][  0]LogWindows: File 'OVRPlugin.dll' does not exist
-[2020.05.20-12.27.06:715][  0]LogEngine: Initializing Engine...
-[2020.05.20-12.27.06:716][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.05.20-12.27.06:717][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.001 s
-[2020.05.20-12.27.07:106][  0]LogInit: Initializing FReadOnlyCVARCache
-[2020.05.20-12.27.07:117][  0]LogAIModule: Creating AISystem for world Untitled
-[2020.05.20-12.27.07:210][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.05.20-12.27.07:210][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.05.20-12.27.07:210][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.05.20-12.27.07:210][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.05.20-12.27.07:210][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.05.20-12.27.07:210][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.05.20-12.27.07:210][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.05.20-12.27.07:210][  0]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.05.20-12.27.07:210][  0]LogAudio: Display: Using built-in audio occlusion.
-[2020.05.20-12.27.07:210][  0]LogAudioMixer: Display: Initializing audio mixer.
-[2020.05.20-12.27.07:261][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
-[2020.05.20-12.27.07:261][  0]LogAudioMixer: Display: Name: Speaker/HP (Realtek High Definition Audio(SST))
-[2020.05.20-12.27.07:261][  0]LogAudioMixer: Display: Is Default: Yes
-[2020.05.20-12.27.07:261][  0]LogAudioMixer: Display: Sample Rate: 48000
-[2020.05.20-12.27.07:261][  0]LogAudioMixer: Display: Channel Count Used: 2
-[2020.05.20-12.27.07:261][  0]LogAudioMixer: Display: Device Channel Count: 2
-[2020.05.20-12.27.07:261][  0]LogAudioMixer: Display: Channel Order:
-[2020.05.20-12.27.07:261][  0]LogAudioMixer: Display: 0: FrontLeft
-[2020.05.20-12.27.07:261][  0]LogAudioMixer: Display: 1: FrontRight
-[2020.05.20-12.27.07:287][  0]LogAudioMixer: Display: Using Audio Device Speaker/HP (Realtek High Definition Audio(SST))
-[2020.05.20-12.27.07:294][  0]LogInit: FAudioDevice initialized.
-[2020.05.20-12.27.07:294][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2020.05.20-12.27.07:383][  0]LogDerivedDataCache: Saved boot cache 0.09s 78MB C:/Users/Pavel/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
-[2020.05.20-12.27.07:389][  0]LogInit: Texture streaming: Enabled
-[2020.05.20-12.27.07:404][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2020.05.20-12.27.07:404][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
-[2020.05.20-12.27.07:406][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
-[2020.05.20-12.27.07:457][  0]LogInit: Transaction tracking system initialized
-[2020.05.20-12.27.07:483][  0]BlueprintLog: New page: Editor Load
-[2020.05.20-12.27.07:545][  0]LocalizationService: Localization service is disabled
-[2020.05.20-12.27.07:660][  0]LogLinker: Warning: Failed to load '/Game/DENT/AddDestructibleMeshToDENT': Can't find file.
-[2020.05.20-12.27.07:660][  0]LogLinker: Warning: Failed to load '/Game/DENT/AddDestructibleMeshToDENT': Can't find file.
-[2020.05.20-12.27.07:660][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/DENT/AddDestructibleMeshToDENT.AddDestructibleMeshToDENT_C'
-[2020.05.20-12.27.09:030][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/' took 0.00s
-[2020.05.20-12.27.09:030][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2020.05.20-12.27.09:030][  0]LogCook: Display: Mobile HDR setting 1
-[2020.05.20-12.27.09:863][  0]SourceControl: Source control is disabled
-[2020.05.20-12.27.09:863][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.05.20-12.27.09:863][  0]LightingResults: New page: Lighting Build
-[2020.05.20-12.27.09:867][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2020.05.20-12.27.09:867][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.05.20-12.27.09:867][  0]MapCheck: New page: Map Check
-[2020.05.20-12.27.09:867][  0]LightingResults: New page: Lighting Build
-[2020.05.20-12.27.09:900][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
-[2020.05.20-12.27.10:198][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2020.05.20-12.27.10:207][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.05.20-12.27.10:241][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
-[2020.05.20-12.27.10:241][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.05.20-12.27.10:242][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.168ms to complete.
-[2020.05.20-12.27.10:242][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.379
-[2020.05.20-12.27.10:385][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.05.20-12.27.10:393][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.05.20-12.27.10:400][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.05.20-12.27.10:407][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.05.20-12.27.10:414][  0]LogCollectionManager: Loaded 0 collections in 0.001927 seconds
-[2020.05.20-12.27.10:432][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/Collections/' took 0.00s
-[2020.05.20-12.27.10:432][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Developers/pavtiger/Collections/' took 0.00s
-[2020.05.20-12.27.10:432][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Collections/' took 0.00s
-[2020.05.20-12.27.10:432][  0]LogContentBrowser: Native class hierarchy populated in 0.0097 seconds. Added 3015 classes and 717 folders.
-[2020.05.20-12.27.10:441][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2020.05.20-12.27.10:629][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2020.05.20-12.27.10:635][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 3 folders.
-[2020.05.20-12.27.10:659][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2020.05.20-12.27.10:659][  0]LogLoad: (Engine Initialization) Total time: 15.28 seconds
-[2020.05.20-12.27.10:659][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2020.05.20-12.27.10:730][  0]LogContentStreaming: Texture pool size now 800 MB
-[2020.05.20-12.27.10:732][  0]LogSlate: Took 0.001077 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2020.05.20-12.27.10:735][  0]LogSlate: Took 0.001273 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2020.05.20-12.27.10:740][  0]LogSlate: Took 0.001212 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2020.05.20-12.27.11:182][  0]LogSlate: Took 0.000167 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.05.20-12.27.11:260][  2]LogRenderer: Reallocating scene render targets to support 800x360 Format 9 NumSamples 1 (Frame:1).
-[2020.05.20-12.27.11:715][  2]LogAssetRegistry: Asset discovery search completed in 8.6787 seconds
-[2020.05.20-12.27.11:720][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000012 seconds (updated 0 objects)
-[2020.05.20-12.27.22:807][147]LogRenderer: Reallocating scene render targets to support 1144x600 Format 9 NumSamples 1 (Frame:112).
+[2020.05.20-13.11.54:527][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.05.20-13.11.54:527][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.05.20-13.11.54:527][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/Config/Windows/Engine.ini]
+[2020.05.20-13.11.54:527][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.05.20-13.11.54:528][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/Config/Windows/Engine.ini]
+[2020.05.20-13.11.54:528][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/Config/Windows/Engine.ini]
+[2020.05.20-13.11.54:528][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.05.20-13.11.54:528][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.05.20-13.11.54:528][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.05.20-13.11.54:528][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.05.20-13.11.54:528][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.05.20-13.11.54:528][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.05.20-13.11.54:528][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.05.20-13.11.54:528][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.05.20-13.11.54:528][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.05.20-13.11.54:528][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.05.20-13.11.54:528][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.05.20-13.11.54:528][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.05.20-13.11.54:528][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.05.20-13.11.54:528][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.05.20-13.11.54:528][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/Config/Windows/Engine.ini]
+[2020.05.20-13.11.54:528][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.05.20-13.11.54:528][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.05.20-13.11.54:528][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.05.20-13.11.54:528][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.05.20-13.11.54:528][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.05.20-13.11.54:528][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.05.20-13.11.54:528][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.05.20-13.11.54:528][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.05.20-13.11.54:528][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.05.20-13.11.54:528][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.05.20-13.11.54:528][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.05.20-13.11.54:528][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.05.20-13.11.54:528][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.05.20-13.11.54:529][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/Config/Windows/Engine.ini]
+[2020.05.20-13.11.54:529][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/Config/Windows/Engine.ini]
+[2020.05.20-13.11.54:531][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/Config/Windows/Scalability.ini]
+[2020.05.20-13.11.54:531][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.05.20-13.11.54:532][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.05.20-13.11.54:532][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/Config/Windows/Scalability.ini]
+[2020.05.20-13.11.54:532][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.05.20-13.11.54:532][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/Config/Windows/Scalability.ini]
+[2020.05.20-13.11.54:532][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.05.20-13.11.54:532][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.05.20-13.11.54:532][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.05.20-13.11.54:532][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.05.20-13.11.54:532][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.05.20-13.11.54:532][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.05.20-13.11.54:532][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.05.20-13.11.54:532][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.05.20-13.11.54:532][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.05.20-13.11.54:532][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.05.20-13.11.54:532][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.05.20-13.11.54:532][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.05.20-13.11.54:532][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.05.20-13.11.54:532][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.05.20-13.11.54:532][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.05.20-13.11.54:532][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.05.20-13.11.54:532][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.05.20-13.11.54:532][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.05.20-13.11.54:532][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/Config/Windows/Scalability.ini]
+[2020.05.20-13.11.54:532][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.05.20-13.11.54:532][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.05.20-13.11.54:532][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.05.20-13.11.54:532][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.05.20-13.11.54:532][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.05.20-13.11.54:532][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.05.20-13.11.54:532][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.05.20-13.11.54:532][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.05.20-13.11.54:532][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.05.20-13.11.54:532][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.05.20-13.11.54:532][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.05.20-13.11.54:532][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.05.20-13.11.54:532][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.05.20-13.11.54:532][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.05.20-13.11.54:532][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.05.20-13.11.54:532][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.05.20-13.11.54:532][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.05.20-13.11.54:532][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.05.20-13.11.54:532][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.05.20-13.11.54:533][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.05.20-13.11.54:533][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.05.20-13.11.54:533][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.05.20-13.11.54:533][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.05.20-13.11.54:533][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.05.20-13.11.54:533][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.05.20-13.11.54:533][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.05.20-13.11.54:533][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.05.20-13.11.54:533][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.05.20-13.11.54:533][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.05.20-13.11.54:533][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.05.20-13.11.54:533][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/Config/Windows/Scalability.ini]
+[2020.05.20-13.11.54:533][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.05.20-13.11.54:533][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.05.20-13.11.54:533][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.05.20-13.11.54:533][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.05.20-13.11.54:533][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.05.20-13.11.54:533][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.05.20-13.11.54:533][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.05.20-13.11.54:533][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.05.20-13.11.54:533][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.05.20-13.11.54:533][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/Config/Windows/Scalability.ini]
+[2020.05.20-13.11.54:533][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.05.20-13.11.54:533][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.05.20-13.11.54:533][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.05.20-13.11.54:533][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.05.20-13.11.54:533][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.05.20-13.11.54:533][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.05.20-13.11.54:533][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.05.20-13.11.54:533][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.05.20-13.11.54:533][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.05.20-13.11.54:533][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.05.20-13.11.54:533][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.05.20-13.11.54:533][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.05.20-13.11.54:533][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.05.20-13.11.54:533][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.05.20-13.11.54:533][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.05.20-13.11.54:533][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.05.20-13.11.54:533][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.05.20-13.11.54:533][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.05.20-13.11.54:533][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.05.20-13.11.54:533][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.05.20-13.11.54:533][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.05.20-13.11.54:533][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.05.20-13.11.54:533][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.05.20-13.11.54:533][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.05.20-13.11.54:533][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.05.20-13.11.54:533][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.05.20-13.11.54:534][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/Config/Windows/Scalability.ini]
+[2020.05.20-13.11.54:534][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.05.20-13.11.54:534][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.05.20-13.11.54:534][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/Config/Windows/Scalability.ini]
+[2020.05.20-13.11.54:534][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.05.20-13.11.54:534][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.05.20-13.11.54:534][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.05.20-13.11.54:534][  0]LogInit: Selected Device Profile: [Windows]
+[2020.05.20-13.11.54:534][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.05.20-13.11.54:539][  0]LogHAL: Display: Platform has ~ 8 GB [8474996736 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.05.20-13.11.54:539][  0]LogInit: Going up to parent DeviceProfile []
+[2020.05.20-13.11.54:539][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@2] File [C:/Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/Config/Windows/Scalability.ini]
+[2020.05.20-13.11.54:539][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.05.20-13.11.54:539][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:0.8]]
+[2020.05.20-13.11.54:539][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@2] File [C:/Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/Config/Windows/Scalability.ini]
+[2020.05.20-13.11.54:539][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:3]]
+[2020.05.20-13.11.54:539][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@1] File [C:/Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/Config/Windows/Scalability.ini]
+[2020.05.20-13.11.54:539][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.05.20-13.11.54:539][  0]LogConfig: Setting CVar [[r.ShadowQuality:3]]
+[2020.05.20-13.11.54:539][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:1]]
+[2020.05.20-13.11.54:539][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:1024]]
+[2020.05.20-13.11.54:539][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:1024]]
+[2020.05.20-13.11.54:539][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.05]]
+[2020.05.20-13.11.54:539][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:0.7]]
+[2020.05.20-13.11.54:539][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:0.25]]
+[2020.05.20-13.11.54:539][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:0.5]]
+[2020.05.20-13.11.54:539][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:0]]
+[2020.05.20-13.11.54:539][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:0]]
+[2020.05.20-13.11.54:539][  0]LogConfig: Setting CVar [[r.VolumetricFog:0]]
+[2020.05.20-13.11.54:539][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:.5]]
+[2020.05.20-13.11.54:539][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.05.20-13.11.54:539][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@0] File [C:/Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/Config/Windows/Scalability.ini]
+[2020.05.20-13.11.54:540][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:0]]
+[2020.05.20-13.11.54:540][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:1.0]]
+[2020.05.20-13.11.54:540][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:0]]
+[2020.05.20-13.11.54:540][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:0]]
+[2020.05.20-13.11.54:540][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.2]]
+[2020.05.20-13.11.54:540][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:0]]
+[2020.05.20-13.11.54:540][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:300]]
+[2020.05.20-13.11.54:540][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
+[2020.05.20-13.11.54:540][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
+[2020.05.20-13.11.54:540][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:0]]
+[2020.05.20-13.11.54:540][  0]LogConfig: Setting CVar [[r.BloomQuality:4]]
+[2020.05.20-13.11.54:540][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:0]]
+[2020.05.20-13.11.54:540][  0]LogConfig: Setting CVar [[r.Upscale.Quality:1]]
+[2020.05.20-13.11.54:540][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:0]]
+[2020.05.20-13.11.54:540][  0]LogConfig: Setting CVar [[r.LightShaftQuality:0]]
+[2020.05.20-13.11.54:540][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:0.6]]
+[2020.05.20-13.11.54:540][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:0]]
+[2020.05.20-13.11.54:540][  0]LogConfig: Applying CVar settings from Section [TextureQuality@2] File [C:/Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/Config/Windows/Scalability.ini]
+[2020.05.20-13.11.54:540][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.05.20-13.11.54:540][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.05.20-13.11.54:540][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.05.20-13.11.54:540][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.05.20-13.11.54:540][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:4]]
+[2020.05.20-13.11.54:540][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.05.20-13.11.54:540][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:1]]
+[2020.05.20-13.11.54:540][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:800]]
+[2020.05.20-13.11.54:540][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.05.20-13.11.54:540][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@0] File [C:/Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/Config/Windows/Scalability.ini]
+[2020.05.20-13.11.54:540][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:24]]
+[2020.05.20-13.11.54:540][  0]LogConfig: Setting CVar [[r.RefractionQuality:0]]
+[2020.05.20-13.11.54:540][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
+[2020.05.20-13.11.54:540][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:1]]
+[2020.05.20-13.11.54:540][  0]LogConfig: Setting CVar [[r.SceneColorFormat:3]]
+[2020.05.20-13.11.54:540][  0]LogConfig: Setting CVar [[r.DetailMode:0]]
+[2020.05.20-13.11.54:540][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
+[2020.05.20-13.11.54:540][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:0 ; Low quality]]
+[2020.05.20-13.11.54:540][  0]LogConfig: Setting CVar [[r.SSS.Scale:0]]
+[2020.05.20-13.11.54:540][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:0]]
+[2020.05.20-13.11.54:540][  0]LogConfig: Setting CVar [[r.SSS.Quality:0]]
+[2020.05.20-13.11.54:540][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.05.20-13.11.54:540][  0]LogConfig: Setting CVar [[r.SSGI.Quality:0]]
+[2020.05.20-13.11.54:540][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:0.125]]
+[2020.05.20-13.11.54:540][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:0]]
+[2020.05.20-13.11.54:540][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.05.20-13.11.54:540][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.05.20-13.11.54:540][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:8.0]]
+[2020.05.20-13.11.54:540][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.05.20-13.11.54:540][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:2.0]]
+[2020.05.20-13.11.54:541][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:16.0]]
+[2020.05.20-13.11.54:541][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:2.0]]
+[2020.05.20-13.11.54:541][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:16.0]]
+[2020.05.20-13.11.54:541][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:1]]
+[2020.05.20-13.11.54:541][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.05.20-13.11.54:541][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.05.20-13.11.54:541][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@2] File [C:/Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/Config/Windows/Scalability.ini]
+[2020.05.20-13.11.54:541][  0]LogConfig: Setting CVar [[foliage.DensityScale:0.8]]
+[2020.05.20-13.11.54:541][  0]LogConfig: Setting CVar [[grass.DensityScale:0.8]]
+[2020.05.20-13.11.54:541][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@0] File [C:/Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/Config/Windows/Scalability.ini]
+[2020.05.20-13.11.54:541][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:8]]
+[2020.05.20-13.11.54:541][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.05.20-13.11.54:541][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:8]]
+[2020.05.20-13.11.54:541][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.05.20-13.11.54:541][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.05.20-13.11.54:541][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.05.20-13.11.54:541][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/Config/Windows/Engine.ini]
+[2020.05.20-13.11.54:542][  0]LogInit: Computer: DESKTOP-E0Q7MOB
+[2020.05.20-13.11.54:542][  0]LogInit: User: pavtiger
+[2020.05.20-13.11.54:542][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.05.20-13.11.54:542][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.05.20-13.11.54:542][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2020.05.20-13.11.54:542][  0]LogMemory: Platform Memory Stats for Windows
+[2020.05.20-13.11.54:542][  0]LogMemory: Process Physical Memory: 104.73 MB used, 104.73 MB peak
+[2020.05.20-13.11.54:542][  0]LogMemory: Process Virtual Memory: 100.70 MB used, 100.70 MB peak
+[2020.05.20-13.11.54:542][  0]LogMemory: Physical Memory: 6257.78 MB used,  1824.61 MB free, 8082.39 MB total
+[2020.05.20-13.11.54:542][  0]LogMemory: Virtual Memory: 5152.19 MB used,  134212576.00 MB free, 134217728.00 MB total
+[2020.05.20-13.11.54:546][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.05.20-13.11.54:607][  0]LogInit: Using OS detected language (en-US).
+[2020.05.20-13.11.54:607][  0]LogInit: Using OS detected locale (en-US).
+[2020.05.20-13.11.54:609][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.05.20-13.11.55:032][  0]LogInit: Setting process to per monitor DPI aware
+[2020.05.20-13.11.55:075][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.05.20-13.11.55:075][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.05.20-13.11.55:700][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.05.20-13.11.55:700][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.05.20-13.11.55:700][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.05.20-13.11.55:700][  0]LogD3D11RHI: D3D11 adapters:
+[2020.05.20-13.11.55:918][  0]LogD3D11RHI:    0. 'Intel(R) UHD Graphics 620' (Feature Level 11_0)
+[2020.05.20-13.11.55:918][  0]LogD3D11RHI:       128/0/4041 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2020.05.20-13.11.55:923][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.05.20-13.11.55:923][  0]LogD3D11RHI:       0/0/4041 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.05.20-13.11.55:923][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.05.20-13.11.55:936][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.05.20-13.11.55:936][  0]LogD3D11RHI:     GPU DeviceId: 0x5917 (for the marketing name, search the web for "GPU Device Id")
+[2020.05.20-13.11.55:936][  0]LogWindows: EnumDisplayDevices:
+[2020.05.20-13.11.55:938][  0]LogWindows:    0. 'Intel(R) UHD Graphics 620' (P:1 D:1)
+[2020.05.20-13.11.55:938][  0]LogWindows:    1. 'Intel(R) UHD Graphics 620' (P:0 D:0)
+[2020.05.20-13.11.55:938][  0]LogWindows:    2. 'Intel(R) UHD Graphics 620' (P:0 D:0)
+[2020.05.20-13.11.55:939][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2020.05.20-13.11.55:939][  0]LogD3D11RHI:     Adapter Name: Intel(R) UHD Graphics 620
+[2020.05.20-13.11.55:939][  0]LogD3D11RHI:   Driver Version: 26.20.100.7810 (internal:26.20.100.7810, unified:26.20.100.7810)
+[2020.05.20-13.11.55:939][  0]LogD3D11RHI:      Driver Date: 1-21-2020
+[2020.05.20-13.11.55:939][  0]LogRHI: Texture pool is 1504 MB (70% of 2148 MB)
+[2020.05.20-13.11.56:177][  0]LogD3D11RHI: RHI does not have support for 64 bit atomics
+[2020.05.20-13.11.56:179][  0]LogD3D11RHI: [IntelMetricsDiscovery] Started
+[2020.05.20-13.11.56:179][  0]LogD3D11RHI: Async texture creation enabled
+[2020.05.20-13.11.56:205][  0]LogD3D11RHI: GPU Timing Frequency: 12.000048 (Debug: 2 0)
+[2020.05.20-13.11.56:936][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.05.20-13.11.57:046][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.05.20-13.11.57:046][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.05.20-13.11.57:046][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
+[2020.05.20-13.11.57:046][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.05.20-13.11.57:046][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
+[2020.05.20-13.11.57:046][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
+[2020.05.20-13.11.57:046][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.05.20-13.11.57:046][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
+[2020.05.20-13.11.57:046][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.05.20-13.11.57:046][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.05.20-13.11.57:046][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
+[2020.05.20-13.11.57:046][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.05.20-13.11.57:046][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
+[2020.05.20-13.11.57:046][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
+[2020.05.20-13.11.57:046][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.05.20-13.11.57:046][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
+[2020.05.20-13.11.57:046][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.05.20-13.11.57:046][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.05.20-13.11.57:110][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.05.20-13.11.57:110][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.05.20-13.11.57:130][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.05.20-13.11.57:152][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.05.20-13.11.57:169][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.05.20-13.11.57:187][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.05.20-13.11.57:203][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.05.20-13.11.57:221][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.05.20-13.11.57:270][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.05.20-13.11.57:270][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.05.20-13.11.57:297][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.05.20-13.11.57:297][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.05.20-13.11.57:313][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.05.20-13.11.57:329][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.05.20-13.11.57:346][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.05.20-13.11.57:369][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.05.20-13.11.57:370][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.05.20-13.11.57:382][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.05.20-13.11.57:467][  0]LogShaderCompilers: Guid format shader working directory is -28 characters bigger than the processId version (../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Intermediate/Shaders/WorkingDirectory/1348/).
+[2020.05.20-13.11.57:468][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Pavel/AppData/Local/Temp/UnrealShaderWorkingDir/3E6CE93E4C5D787493BF4099A088BB67/'.
+[2020.05.20-13.11.57:470][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.05.20-13.11.57:470][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.05.20-13.11.57:470][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.05.20-13.11.59:393][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.05.20-13.11.59:642][  0]LogDerivedDataCache: Loaded boot cache 0.25s 78MB C:/Users/Pavel/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.05.20-13.11.59:642][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Pavel/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
+[2020.05.20-13.11.59:642][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.05.20-13.11.59:642][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.05.20-13.11.59:643][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.05.20-13.11.59:643][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.05.20-13.11.59:660][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.05.20-13.11.59:660][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.05.20-13.11.59:660][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.05.20-13.11.59:662][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Pavel/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.05.20-13.11.59:662][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.05.20-13.11.59:663][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.05.20-13.11.59:709][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.05.20-13.11.59:713][  0]LogSlate: Using FreeType 2.10.0
+[2020.05.20-13.11.59:721][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.05.20-13.11.59:943][  0]LogAssetRegistry: FAssetRegistry took 0.0053 seconds to start up
+[2020.05.20-13.12.00:631][  0]LogInit: Selected Device Profile: [Windows]
+[2020.05.20-13.12.00:917][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.05.20-13.12.00:917][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.05.20-13.12.00:917][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.05.20-13.12.00:917][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.05.20-13.12.00:917][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.05.20-13.12.00:941][  0]LogNetVersion: MatrixUnrealEngine 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 1501902636)
+[2020.05.20-13.12.03:966][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.063025 seconds
+[2020.05.20-13.12.03:980][  0]LogUObjectArray: 46750 objects as part of root set at end of initial load.
+[2020.05.20-13.12.03:980][  0]LogUObjectAllocator: 8137160 out of 0 bytes used by permanent object pool.
+[2020.05.20-13.12.03:980][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.05.20-13.12.04:859][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.05.20-13.12.04:865][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.05.20-13.12.04:980][  0]SourceControl: Source control is disabled
+[2020.05.20-13.12.04:980][  0]SourceControl: Source control is disabled
+[2020.05.20-13.12.04:985][  0]SourceControl: Source control is disabled
+[2020.05.20-13.12.04:988][  0]SourceControl: Source control is disabled
+[2020.05.20-13.12.04:991][  0]SourceControl: Source control is disabled
+[2020.05.20-13.12.05:190][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.05.20-13.12.05:211][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.05.20-13.12.05:211][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.05.20-13.12.05:377][  0]LogOcInput: OculusInput pre-init called
+[2020.05.20-13.12.05:393][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.05.20-13.12.05:393][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.05.20-13.12.05:530][  0]LogEngine: Initializing Engine...
+[2020.05.20-13.12.05:533][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.05.20-13.12.05:536][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.05.20-13.12.06:120][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.05.20-13.12.06:137][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.05.20-13.12.06:525][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.20-13.12.06:525][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.20-13.12.06:525][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.20-13.12.06:525][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.20-13.12.06:525][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.20-13.12.06:525][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.20-13.12.06:525][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.20-13.12.06:525][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.20-13.12.06:526][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.20-13.12.06:526][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.20-13.12.06:609][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.20-13.12.06:609][  0]LogAudioMixer: Display: Name: Speaker/HP (Realtek High Definition Audio(SST))
+[2020.05.20-13.12.06:609][  0]LogAudioMixer: Display: Is Default: Yes
+[2020.05.20-13.12.06:609][  0]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.20-13.12.06:609][  0]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.20-13.12.06:609][  0]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.20-13.12.06:609][  0]LogAudioMixer: Display: Channel Order:
+[2020.05.20-13.12.06:609][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.20-13.12.06:609][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.05.20-13.12.06:656][  0]LogAudioMixer: Display: Using Audio Device Speaker/HP (Realtek High Definition Audio(SST))
+[2020.05.20-13.12.06:667][  0]LogInit: FAudioDevice initialized.
+[2020.05.20-13.12.06:667][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.05.20-13.12.06:823][  0]LogDerivedDataCache: Saved boot cache 0.16s 78MB C:/Users/Pavel/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.05.20-13.12.06:830][  0]LogInit: Texture streaming: Enabled
+[2020.05.20-13.12.06:850][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.05.20-13.12.06:850][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.05.20-13.12.06:853][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.05.20-13.12.06:921][  0]LogInit: Transaction tracking system initialized
+[2020.05.20-13.12.06:953][  0]BlueprintLog: New page: Editor Load
+[2020.05.20-13.12.07:031][  0]LocalizationService: Localization service is disabled
+[2020.05.20-13.12.07:163][  0]LogLinker: Warning: Failed to load '/Game/DENT/AddDestructibleMeshToDENT': Can't find file.
+[2020.05.20-13.12.07:164][  0]LogLinker: Warning: Failed to load '/Game/DENT/AddDestructibleMeshToDENT': Can't find file.
+[2020.05.20-13.12.07:164][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/DENT/AddDestructibleMeshToDENT.AddDestructibleMeshToDENT_C'
+[2020.05.20-13.12.09:258][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/' took 0.01s
+[2020.05.20-13.12.09:258][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.05.20-13.12.09:259][  0]LogCook: Display: Mobile HDR setting 1
+[2020.05.20-13.12.10:511][  0]SourceControl: Source control is disabled
+[2020.05.20-13.12.10:511][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.05.20-13.12.10:513][  0]LightingResults: New page: Lighting Build
+[2020.05.20-13.12.10:516][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.05.20-13.12.10:516][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.20-13.12.10:516][  0]MapCheck: New page: Map Check
+[2020.05.20-13.12.10:516][  0]LightingResults: New page: Lighting Build
+[2020.05.20-13.12.10:572][  0]LogUObjectHash: Compacting FUObjectHashTables data took   3.56ms
+[2020.05.20-13.12.11:171][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.05.20-13.12.11:198][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.05.20-13.12.11:250][  0]LogUObjectHash: Compacting FUObjectHashTables data took   3.20ms
+[2020.05.20-13.12.11:251][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.05.20-13.12.11:251][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.265ms to complete.
+[2020.05.20-13.12.11:251][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.740
+[2020.05.20-13.12.11:423][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.20-13.12.11:435][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.20-13.12.11:450][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.20-13.12.11:462][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.20-13.12.11:471][  0]LogCollectionManager: Loaded 0 collections in 0.002770 seconds
+[2020.05.20-13.12.11:499][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/Collections/' took 0.00s
+[2020.05.20-13.12.11:499][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Developers/pavtiger/Collections/' took 0.00s
+[2020.05.20-13.12.11:499][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Collections/' took 0.00s
+[2020.05.20-13.12.11:499][  0]LogContentBrowser: Native class hierarchy populated in 0.0147 seconds. Added 3015 classes and 717 folders.
+[2020.05.20-13.12.11:511][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2020.05.20-13.12.11:846][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.05.20-13.12.11:852][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 3 folders.
+[2020.05.20-13.12.11:908][  0]LogSlate: Took 0.001404 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.05.20-13.12.11:913][  0]LogSlate: Took 0.001331 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.05.20-13.12.11:922][  0]LogSlate: Took 0.001067 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.05.20-13.12.12:067][  0]LogRenderer: Reallocating scene render targets to support 1144x600 Format 9 NumSamples 1 (Frame:1).
+[2020.05.20-13.12.12:884][  0]LogSlate: Took 0.001673 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.05.20-13.12.13:034][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.05.20-13.12.13:034][  0]LogLoad: (Engine Initialization) Total time: 26.82 seconds
+[2020.05.20-13.12.13:035][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.05.20-13.12.13:430][  0]LogContentStreaming: Texture pool size now 800 MB
+[2020.05.20-13.12.14:347][  5]LogAssetRegistry: Asset discovery search completed in 14.4055 seconds
+[2020.05.20-13.12.14:360][  5]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000024 seconds (updated 0 objects)
+[2020.05.20-13.12.46:577][206]LogSlate: Took 0.000487 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.05.20-13.12.46:625][206]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceConstant /Game/Materials/07_Off_White_Tiles_2x2_M_tfihaepg_8K_inst.07_Off_White_Tiles_2x2_M_tfihaepg_8K_inst
+[2020.05.20-13.12.47:844][206]LogRenderer: Reallocating scene render targets to support 1272x960 Format 9 NumSamples 1 (Frame:1).
+[2020.05.20-13.13.09:011][819]LogUObjectHash: Compacting FUObjectHashTables data took   6.03ms
+[2020.05.20-13.13.09:106][819]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.05.20-13.13.11:029][819]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 4
+[2020.05.20-13.13.11:029][819]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 3
+[2020.05.20-13.13.11:029][819]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 2
+[2020.05.20-13.13.11:029][819]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1
+[2020.05.20-13.13.11:040][819]TextureStreamingBuild: Display: Compiling optional shaders took 2.019 seconds.
+[2020.05.20-13.13.11:174][819]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2020.05.20-13.13.11:205][819]LogSavePackage: Moving '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/07_Off_White_Tiles_2x2_M_tfihaep2DC271854BB47B0A17A3B5AA11E35F6C.tmp' to '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Materials/07_Off_White_Tiles_2x2_M_tfihaepg_8K_inst.uasset'
+[2020.05.20-13.13.11:249][819]AssetCheck: New page: Asset Save: 07_Off_White_Tiles_2x2_M_tfihaepg_8K_inst
+[2020.05.20-13.13.11:249][819]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/Materials/07_Off_White_Tiles_2x2_M_tfihaepg_8K_inst.07_Off_White_Tiles_2x2_M_tfihaepg_8K_inst
+[2020.05.20-13.13.12:209][842]LogSlate: Window '07_Off_White_Tiles_2x2_M_tfihaepg_8K_inst' being destroyed
+[2020.05.20-13.13.12:242][842]LogSlate: Window '07_Off_White_Tiles_2x2_M_tfihaepg_8K_inst' being destroyed
+[2020.05.20-13.13.12:406][842]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2020.05.20-13.13.12:406][842]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.20-13.13.19:173][989]LogLinker: Warning: While loading '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Materials/07_Off_White_Tiles_2x2_M_tfihaepg/07_Off_White_Tiles_2x2_M_tfihaepg_8K_inst.uasset' failed to load '/Game/MS_ScaryRestroom/Master_Materials/Standard_MasterMaterial': Can't find file.
+[2020.05.20-13.13.19:174][989]LogLinker: Warning: While loading '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Materials/07_Off_White_Tiles_2x2_M_tfihaepg/07_Off_White_Tiles_2x2_M_tfihaepg_8K_inst.uasset' failed to load '/Game/MS_ScaryRestroom/Master_Materials/Standard_MasterMaterial': Can't find file.
+[2020.05.20-13.13.19:175][989]LogLinker: Warning: While loading '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Materials/07_Off_White_Tiles_2x2_M_tfihaepg/07_Off_White_Tiles_2x2_M_tfihaepg_8K_inst.uasset' failed to load '/Game/MS_ScaryRestroom/Master_Materials/Standard_MasterMaterial': Can't find file.
+[2020.05.20-13.13.19:175][989]LogLinker: Warning: While loading '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Materials/07_Off_White_Tiles_2x2_M_tfihaepg/07_Off_White_Tiles_2x2_M_tfihaepg_8K_inst.uasset' failed to load '/Game/MS_ScaryRestroom/Master_Materials/Standard_MasterMaterial': Can't find file.
+[2020.05.20-13.13.19:176][989]LogLinker: Warning: While loading '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Materials/07_Off_White_Tiles_2x2_M_tfihaepg/07_Off_White_Tiles_2x2_M_tfihaepg_8K_inst.uasset' failed to load '/Game/MS_ScaryRestroom/Surface/07_Off_White_Tiles_2x2_M_tfihaepg/tfihaepg_8K_Albedo': Can't find file.
+[2020.05.20-13.13.19:177][989]LogLinker: Warning: While loading '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Materials/07_Off_White_Tiles_2x2_M_tfihaepg/07_Off_White_Tiles_2x2_M_tfihaepg_8K_inst.uasset' failed to load '/Game/MS_ScaryRestroom/Surface/07_Off_White_Tiles_2x2_M_tfihaepg/tfihaepg_8K_Albedo': Can't find file.
+[2020.05.20-13.13.19:178][989]LogLinker: Warning: While loading '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Materials/07_Off_White_Tiles_2x2_M_tfihaepg/07_Off_White_Tiles_2x2_M_tfihaepg_8K_inst.uasset' failed to load '/Game/MS_ScaryRestroom/Surface/07_Off_White_Tiles_2x2_M_tfihaepg/tfihaepg_8K_Displacement': Can't find file.
+[2020.05.20-13.13.19:179][989]LogLinker: Warning: While loading '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Materials/07_Off_White_Tiles_2x2_M_tfihaepg/07_Off_White_Tiles_2x2_M_tfihaepg_8K_inst.uasset' failed to load '/Game/MS_ScaryRestroom/Surface/07_Off_White_Tiles_2x2_M_tfihaepg/tfihaepg_8K_Displacement': Can't find file.
+[2020.05.20-13.13.19:180][989]LogLinker: Warning: While loading '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Materials/07_Off_White_Tiles_2x2_M_tfihaepg/07_Off_White_Tiles_2x2_M_tfihaepg_8K_inst.uasset' failed to load '/Game/MS_ScaryRestroom/Surface/07_Off_White_Tiles_2x2_M_tfihaepg/tfihaepg_8K_Normal': Can't find file.
+[2020.05.20-13.13.19:181][989]LogLinker: Warning: While loading '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Materials/07_Off_White_Tiles_2x2_M_tfihaepg/07_Off_White_Tiles_2x2_M_tfihaepg_8K_inst.uasset' failed to load '/Game/MS_ScaryRestroom/Surface/07_Off_White_Tiles_2x2_M_tfihaepg/tfihaepg_8K_Normal': Can't find file.
+[2020.05.20-13.13.19:182][989]LogLinker: Warning: While loading '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Materials/07_Off_White_Tiles_2x2_M_tfihaepg/07_Off_White_Tiles_2x2_M_tfihaepg_8K_inst.uasset' failed to load '/Game/MS_ScaryRestroom/Surface/07_Off_White_Tiles_2x2_M_tfihaepg/tfihaepg_8K_Roughness': Can't find file.
+[2020.05.20-13.13.19:183][989]LogLinker: Warning: While loading '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Materials/07_Off_White_Tiles_2x2_M_tfihaepg/07_Off_White_Tiles_2x2_M_tfihaepg_8K_inst.uasset' failed to load '/Game/MS_ScaryRestroom/Surface/07_Off_White_Tiles_2x2_M_tfihaepg/tfihaepg_8K_Roughness': Can't find file.
+[2020.05.20-13.13.19:184][989]LogLinker: Warning: While loading '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Materials/07_Off_White_Tiles_2x2_M_tfihaepg/07_Off_White_Tiles_2x2_M_tfihaepg_8K_inst.uasset' failed to load '/Game/MS_ScaryRestroom/Surface/07_Off_White_Tiles_2x2_M_tfihaepg/tfihaepg_8K_Albedo': Can't find file.
+[2020.05.20-13.13.19:185][989]LogLinker: Warning: While loading '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Materials/07_Off_White_Tiles_2x2_M_tfihaepg/07_Off_White_Tiles_2x2_M_tfihaepg_8K_inst.uasset' failed to load '/Game/MS_ScaryRestroom/Surface/07_Off_White_Tiles_2x2_M_tfihaepg/tfihaepg_8K_Albedo': Can't find file.
+[2020.05.20-13.13.19:186][989]LogLinker: Warning: While loading '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Materials/07_Off_White_Tiles_2x2_M_tfihaepg/07_Off_White_Tiles_2x2_M_tfihaepg_8K_inst.uasset' failed to load '/Game/MS_ScaryRestroom/Surface/07_Off_White_Tiles_2x2_M_tfihaepg/tfihaepg_8K_Displacement': Can't find file.
+[2020.05.20-13.13.19:187][989]LogLinker: Warning: While loading '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Materials/07_Off_White_Tiles_2x2_M_tfihaepg/07_Off_White_Tiles_2x2_M_tfihaepg_8K_inst.uasset' failed to load '/Game/MS_ScaryRestroom/Surface/07_Off_White_Tiles_2x2_M_tfihaepg/tfihaepg_8K_Displacement': Can't find file.
+[2020.05.20-13.13.19:187][989]LogLinker: Warning: While loading '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Materials/07_Off_White_Tiles_2x2_M_tfihaepg/07_Off_White_Tiles_2x2_M_tfihaepg_8K_inst.uasset' failed to load '/Game/MS_ScaryRestroom/Surface/07_Off_White_Tiles_2x2_M_tfihaepg/tfihaepg_8K_Normal': Can't find file.
+[2020.05.20-13.13.19:188][989]LogLinker: Warning: While loading '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Materials/07_Off_White_Tiles_2x2_M_tfihaepg/07_Off_White_Tiles_2x2_M_tfihaepg_8K_inst.uasset' failed to load '/Game/MS_ScaryRestroom/Surface/07_Off_White_Tiles_2x2_M_tfihaepg/tfihaepg_8K_Normal': Can't find file.
+[2020.05.20-13.13.19:189][989]LogLinker: Warning: While loading '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Materials/07_Off_White_Tiles_2x2_M_tfihaepg/07_Off_White_Tiles_2x2_M_tfihaepg_8K_inst.uasset' failed to load '/Game/MS_ScaryRestroom/Surface/07_Off_White_Tiles_2x2_M_tfihaepg/tfihaepg_8K_Roughness': Can't find file.
+[2020.05.20-13.13.19:189][989]LogLinker: Warning: While loading '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Materials/07_Off_White_Tiles_2x2_M_tfihaepg/07_Off_White_Tiles_2x2_M_tfihaepg_8K_inst.uasset' failed to load '/Game/MS_ScaryRestroom/Surface/07_Off_White_Tiles_2x2_M_tfihaepg/tfihaepg_8K_Roughness': Can't find file.
+[2020.05.20-13.13.19:213][989]LogLinker: Warning: While loading '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Materials/07_Off_White_Tiles_2x2_M_tfihaepg/07_Off_White_Tiles_2x2_M_tfihaepg_8K_inst.uasset' failed to load '/Game/MS_ScaryRestroom/Master_Materials/Standard_MasterMaterial': Can't find file.
+[2020.05.20-13.13.19:214][989]LoadErrors: Failed to load /Game/MS_ScaryRestroom/Master_Materials/Standard_MasterMaterial.Standard_MasterMaterial Referenced by 07_Off_White_Tiles_2x2_M_tfihaepg_8K_inst
+[2020.05.20-13.13.19:214][989]LogLinker: Warning: While loading '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Materials/07_Off_White_Tiles_2x2_M_tfihaepg/07_Off_White_Tiles_2x2_M_tfihaepg_8K_inst.uasset' failed to load '/Game/MS_ScaryRestroom/Master_Materials/Standard_MasterMaterial': Can't find file.
+[2020.05.20-13.13.19:215][989]LogLinker: Warning: While loading '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Materials/07_Off_White_Tiles_2x2_M_tfihaepg/07_Off_White_Tiles_2x2_M_tfihaepg_8K_inst.uasset' failed to load '/Game/MS_ScaryRestroom/Surface/07_Off_White_Tiles_2x2_M_tfihaepg/tfihaepg_8K_Roughness': Can't find file.
+[2020.05.20-13.13.19:216][989]LoadErrors: Failed to load /Game/MS_ScaryRestroom/Surface/07_Off_White_Tiles_2x2_M_tfihaepg/tfihaepg_8K_Roughness.tfihaepg_8K_Roughness Referenced by 07_Off_White_Tiles_2x2_M_tfihaepg_8K_inst
+[2020.05.20-13.13.19:216][989]LogLinker: Warning: While loading '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Materials/07_Off_White_Tiles_2x2_M_tfihaepg/07_Off_White_Tiles_2x2_M_tfihaepg_8K_inst.uasset' failed to load '/Game/MS_ScaryRestroom/Surface/07_Off_White_Tiles_2x2_M_tfihaepg/tfihaepg_8K_Roughness': Can't find file.
+[2020.05.20-13.13.19:217][989]LogLinker: Warning: While loading '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Materials/07_Off_White_Tiles_2x2_M_tfihaepg/07_Off_White_Tiles_2x2_M_tfihaepg_8K_inst.uasset' failed to load '/Game/MS_ScaryRestroom/Surface/07_Off_White_Tiles_2x2_M_tfihaepg/tfihaepg_8K_Normal': Can't find file.
+[2020.05.20-13.13.19:217][989]LoadErrors: Failed to load /Game/MS_ScaryRestroom/Surface/07_Off_White_Tiles_2x2_M_tfihaepg/tfihaepg_8K_Normal.tfihaepg_8K_Normal Referenced by 07_Off_White_Tiles_2x2_M_tfihaepg_8K_inst
+[2020.05.20-13.13.19:218][989]LogLinker: Warning: While loading '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Materials/07_Off_White_Tiles_2x2_M_tfihaepg/07_Off_White_Tiles_2x2_M_tfihaepg_8K_inst.uasset' failed to load '/Game/MS_ScaryRestroom/Surface/07_Off_White_Tiles_2x2_M_tfihaepg/tfihaepg_8K_Normal': Can't find file.
+[2020.05.20-13.13.19:219][989]LogLinker: Warning: While loading '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Materials/07_Off_White_Tiles_2x2_M_tfihaepg/07_Off_White_Tiles_2x2_M_tfihaepg_8K_inst.uasset' failed to load '/Game/MS_ScaryRestroom/Surface/07_Off_White_Tiles_2x2_M_tfihaepg/tfihaepg_8K_Displacement': Can't find file.
+[2020.05.20-13.13.19:219][989]LoadErrors: Failed to load /Game/MS_ScaryRestroom/Surface/07_Off_White_Tiles_2x2_M_tfihaepg/tfihaepg_8K_Displacement.tfihaepg_8K_Displacement Referenced by 07_Off_White_Tiles_2x2_M_tfihaepg_8K_inst
+[2020.05.20-13.13.19:220][989]LogLinker: Warning: While loading '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Materials/07_Off_White_Tiles_2x2_M_tfihaepg/07_Off_White_Tiles_2x2_M_tfihaepg_8K_inst.uasset' failed to load '/Game/MS_ScaryRestroom/Surface/07_Off_White_Tiles_2x2_M_tfihaepg/tfihaepg_8K_Displacement': Can't find file.
+[2020.05.20-13.13.19:220][989]LogLinker: Warning: While loading '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Materials/07_Off_White_Tiles_2x2_M_tfihaepg/07_Off_White_Tiles_2x2_M_tfihaepg_8K_inst.uasset' failed to load '/Game/MS_ScaryRestroom/Surface/07_Off_White_Tiles_2x2_M_tfihaepg/tfihaepg_8K_Albedo': Can't find file.
+[2020.05.20-13.13.19:220][989]LoadErrors: Failed to load /Game/MS_ScaryRestroom/Surface/07_Off_White_Tiles_2x2_M_tfihaepg/tfihaepg_8K_Albedo.tfihaepg_8K_Albedo Referenced by 07_Off_White_Tiles_2x2_M_tfihaepg_8K_inst
+[2020.05.20-13.13.19:221][989]LogLinker: Warning: While loading '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Materials/07_Off_White_Tiles_2x2_M_tfihaepg/07_Off_White_Tiles_2x2_M_tfihaepg_8K_inst.uasset' failed to load '/Game/MS_ScaryRestroom/Surface/07_Off_White_Tiles_2x2_M_tfihaepg/tfihaepg_8K_Albedo': Can't find file.
+[2020.05.20-13.13.19:235][989]LogAIModule: Creating AISystem for world Stockroom
+[2020.05.20-13.13.19:248][989]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/Stockroom.Stockroom
+[2020.05.20-13.13.19:329][989]LogUObjectHash: Compacting FUObjectHashTables data took   7.74ms
+[2020.05.20-13.13.19:335][989]Cmd: MAP LOAD FILE="../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Maps/Stockroom.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.05.20-13.13.19:335][989]LightingResults: New page: Lighting Build
+[2020.05.20-13.13.19:338][989]LoadErrors: New page: Loading map: Stockroom.umap
+[2020.05.20-13.13.19:340][989]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.05.20-13.13.19:340][989]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.20-13.13.19:340][989]MapCheck: New page: Map Check
+[2020.05.20-13.13.19:340][989]LightingResults: New page: Lighting Build
+[2020.05.20-13.13.19:406][989]LogUObjectHash: Compacting FUObjectHashTables data took   5.25ms
+[2020.05.20-13.13.19:414][989]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.05.20-13.13.19:486][989]LogUObjectHash: Compacting FUObjectHashTables data took   4.35ms
+[2020.05.20-13.13.19:539][989]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.05.20-13.13.19:539][989]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.23ms to complete.
+[2020.05.20-13.13.19:540][989]LogFileHelpers: Loading map 'Stockroom' took 0.207
+[2020.05.20-13.13.26:130][144]LogMaterial: Display: Material /Game/Materials/Standard_MasterMaterial.Standard_MasterMaterial needed to have new flag set bUsedWithStaticLighting !
+[2020.05.20-13.13.26:151][144]LogMaterial: Display: Missing cached shader map for material Standard_MasterMaterial, compiling. 
+[2020.05.20-13.13.26:598][145]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 77
+[2020.05.20-13.13.26:598][145]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 67
+[2020.05.20-13.13.26:598][145]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 57
+[2020.05.20-13.13.26:598][145]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 47
+[2020.05.20-13.13.30:459][240]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.05.20-13.13.42:873][405]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 37
+[2020.05.20-13.13.44:313][418]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 27
+[2020.05.20-13.13.57:583][540]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 20
+[2020.05.20-13.14.00:061][564]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 14
+[2020.05.20-13.14.03:692][594]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 10
+[2020.05.20-13.14.07:850][616]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 7
+[2020.05.20-13.14.09:043][623]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 5
+[2020.05.20-13.14.12:651][678]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 3
+[2020.05.20-13.14.13:903][683]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 2
+[2020.05.20-13.14.15:282][693]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 1
+[2020.05.20-13.15.08:883][ 47]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceConstant /Game/Materials/07_Off_White_Tiles_2x2_M_tfihaepg_8K_inst.07_Off_White_Tiles_2x2_M_tfihaepg_8K_inst
+[2020.05.20-13.16.22:724][630]LogUObjectHash: Compacting FUObjectHashTables data took   5.91ms
+[2020.05.20-13.16.22:795][630]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.05.20-13.16.29:861][630]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 4
+[2020.05.20-13.16.29:861][630]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 3
+[2020.05.20-13.16.29:861][630]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 2
+[2020.05.20-13.16.29:861][630]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1
+[2020.05.20-13.16.29:866][630]TextureStreamingBuild: Display: Compiling optional shaders took 7.130 seconds.
+[2020.05.20-13.16.29:927][630]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2020.05.20-13.16.29:955][630]LogSavePackage: Moving '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/07_Off_White_Tiles_2x2_M_tfihaep2BA2353E4A1178B930E119BC9F28D79A.tmp' to '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Materials/07_Off_White_Tiles_2x2_M_tfihaepg_8K_inst.uasset'
+[2020.05.20-13.16.30:011][630]AssetCheck: New page: Asset Save: 07_Off_White_Tiles_2x2_M_tfihaepg_8K_inst
+[2020.05.20-13.16.30:011][630]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/Materials/07_Off_White_Tiles_2x2_M_tfihaepg_8K_inst.07_Off_White_Tiles_2x2_M_tfihaepg_8K_inst
+[2020.05.20-13.16.39:590][805]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2020.05.20-13.16.39:635][805]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.05.20-13.16.40:624][805]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 4
+[2020.05.20-13.16.40:624][805]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 3
+[2020.05.20-13.16.40:624][805]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 2
+[2020.05.20-13.16.40:624][805]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1
+[2020.05.20-13.16.40:628][805]TextureStreamingBuild: Display: Compiling optional shaders took 1.036 seconds.
+[2020.05.20-13.16.40:688][805]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2020.05.20-13.16.40:717][805]LogSavePackage: Moving '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/07_Off_White_Tiles_2x2_M_tfihaepD24E1E6B4376FE9F47C7C6AA3E405B2D.tmp' to '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Materials/07_Off_White_Tiles_2x2_M_tfihaepg_8K_inst.uasset'
+[2020.05.20-13.16.40:772][805]AssetCheck: New page: Asset Save: 07_Off_White_Tiles_2x2_M_tfihaepg_8K_inst
+[2020.05.20-13.16.40:772][805]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/Materials/07_Off_White_Tiles_2x2_M_tfihaepg_8K_inst.07_Off_White_Tiles_2x2_M_tfihaepg_8K_inst
+[2020.05.20-13.17.16:455][ 33]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2020.05.20-13.17.16:522][ 33]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.05.20-13.17.18:162][ 33]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 4
+[2020.05.20-13.17.18:162][ 33]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 3
+[2020.05.20-13.17.18:162][ 33]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 2
+[2020.05.20-13.17.18:162][ 33]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1
+[2020.05.20-13.17.18:165][ 33]TextureStreamingBuild: Display: Compiling optional shaders took 1.705 seconds.
+[2020.05.20-13.17.18:227][ 33]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2020.05.20-13.17.18:256][ 33]LogSavePackage: Moving '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/07_Off_White_Tiles_2x2_M_tfihaepA03BAE5C48CF98582F3218AD12DF6920.tmp' to '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Materials/07_Off_White_Tiles_2x2_M_tfihaepg_8K_inst.uasset'
+[2020.05.20-13.17.18:303][ 33]AssetCheck: New page: Asset Save: 07_Off_White_Tiles_2x2_M_tfihaepg_8K_inst
+[2020.05.20-13.17.18:304][ 33]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/Materials/07_Off_White_Tiles_2x2_M_tfihaepg_8K_inst.07_Off_White_Tiles_2x2_M_tfihaepg_8K_inst
+[2020.05.20-13.17.27:801][119]LogSavePackage: Moving '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/07_Off_White_Tiles_2x2_M_tfihaep514EE1DE406978B30FFB13B4BC85E20B.tmp' to '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Materials/07_Off_White_Tiles_2x2_M_tfihaepg_8K_inst.uasset'
+[2020.05.20-13.17.27:843][119]AssetCheck: New page: Asset Save: 07_Off_White_Tiles_2x2_M_tfihaepg_8K_inst
+[2020.05.20-13.17.27:843][119]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/Materials/07_Off_White_Tiles_2x2_M_tfihaepg_8K_inst.07_Off_White_Tiles_2x2_M_tfihaepg_8K_inst
+[2020.05.20-13.17.28:420][133]LogSlate: Window '07_Off_White_Tiles_2x2_M_tfihaepg_8K_inst' being destroyed
+[2020.05.20-13.17.28:439][133]LogSlate: Window '07_Off_White_Tiles_2x2_M_tfihaepg_8K_inst' being destroyed
+[2020.05.20-13.17.28:481][133]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2020.05.20-13.17.28:481][133]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.20-13.17.46:949][390]Cmd: TRANSACTION UNDO
+[2020.05.20-13.17.46:949][390]LogEditorTransaction: Undo Scale Actors
+[2020.05.20-13.17.55:070][544]Cmd: SELECT NONE
+[2020.05.20-13.17.58:742][630]LogUObjectHash: Compacting FUObjectHashTables data took   6.29ms
+[2020.05.20-13.17.58:793][630]LogSavePackage: Moving '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/StockroomD483181E44A59F9172A82AB17FB2A958.tmp' to '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Maps/Stockroom.umap'
+[2020.05.20-13.17.58:862][630]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Stockroom_BuiltData" FILE="../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Maps/Stockroom_BuiltData.uasset" SILENT=true
+[2020.05.20-13.17.58:903][630]LogSavePackage: Moving '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/Stockroom_BuiltData58BAAD99493CB7AA26701F8E6FB7C5D6.tmp' to '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Maps/Stockroom_BuiltData.uasset'
+[2020.05.20-13.17.58:939][630]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.20-13.17.58:940][630]LogContentValidation: Display: Validating World /Game/Maps/Stockroom.Stockroom
+[2020.05.20-13.17.58:940][630]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Stockroom_BuiltData.Stockroom_BuiltData
+[2020.05.20-13.18.56:157][264]LogUObjectHash: Compacting FUObjectHashTables data took   4.66ms
+[2020.05.20-13.18.57:890][264]LogSlate: Window 'Delete Assets' being destroyed
+[2020.05.20-13.18.58:014][264]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2020.05.20-13.18.58:063][264]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2020.05.20-13.18.58:095][264]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2020.05.20-13.19.02:740][442]LogSavePackage: Moving '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/07_Off_White_Tiles_2x2_M_tfihaepC1FAA825425F76F2DCD88A84CDB100E8.tmp' to '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Materials/07_Off_White_Tiles_2x2_M_tfihaepg/07_Off_White_Tiles_2x2_M_tfihaepg_8K_inst.uasset'
+[2020.05.20-13.19.02:748][442]LogSavePackage: Moving '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/07_Off_White_Tiles_2x2_M_tfihaep0953AB8F4A0437DE945ECF85E2512744.tmp' to '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Materials/07_Off_White_Tiles_2x2_M_tfihaepg_8K_inst.uasset'
+[2020.05.20-13.19.02:814][442]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.20-13.19.02:814][442]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/Materials/07_Off_White_Tiles_2x2_M_tfihaepg/07_Off_White_Tiles_2x2_M_tfihaepg_8K_inst.07_Off_White_Tiles_2x2_M_tfihaepg_8K_inst
+[2020.05.20-13.19.02:814][442]LogContentValidation: Display: Validating ObjectRedirector /Game/Materials/07_Off_White_Tiles_2x2_M_tfihaepg_8K_inst.07_Off_White_Tiles_2x2_M_tfihaepg_8K_inst
+[2020.05.20-13.19.12:917][666]LogSavePackage: Moving '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/07_Off_White_Tiles_2x2_M_tfihaepF7155D33443A5E6B86F9A3BE56A17CE8.tmp' to '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Materials/white_tiles/07_Off_White_Tiles_2x2_M_tfihaepg_8K_inst.uasset'
+[2020.05.20-13.19.15:010][666]LogSavePackage: Moving '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/tfihaepg_8K_Albedo79C5F4B94AAFCC4F3ACC65AC75DCECA1.tmp' to '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Materials/white_tiles/tfihaepg_8K_Albedo.uasset'
+[2020.05.20-13.19.15:410][666]LogSavePackage: Moving '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/tfihaepg_8K_Roughness4D6DB4A44B0A5698EA1A4AA2111698F5.tmp' to '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Materials/white_tiles/tfihaepg_8K_Roughness.uasset'
+[2020.05.20-13.19.17:475][666]LogSavePackage: Moving '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/tfihaepg_8K_NormalA3D7966342FF865297944D802A25BBB6.tmp' to '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Materials/white_tiles/tfihaepg_8K_Normal.uasset'
+[2020.05.20-13.19.17:791][666]LogSavePackage: Moving '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/tfihaepg_8K_Displacement61A28AC14428B76E1BCF6083EF7F9C6F.tmp' to '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Materials/white_tiles/tfihaepg_8K_Displacement.uasset'
+[2020.05.20-13.19.18:263][666]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2020.05.20-13.19.18:302][666]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2020.05.20-13.19.18:342][666]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2020.05.20-13.19.18:381][666]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2020.05.20-13.19.18:418][666]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2020.05.20-13.19.18:468][666]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2020.05.20-13.19.18:508][666]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2020.05.20-13.19.18:565][666]LogSavePackage: Moving '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/07_Off_White_Tiles_2x2_M_tfihaep5BE4DCA846CFED0288F31BA7BAECF704.tmp' to '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Materials/07_Off_White_Tiles_2x2_M_tfihaepg_8K_inst.uasset'
+[2020.05.20-13.19.18:647][666]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.20-13.19.18:647][666]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/Materials/white_tiles/07_Off_White_Tiles_2x2_M_tfihaepg_8K_inst.07_Off_White_Tiles_2x2_M_tfihaepg_8K_inst
+[2020.05.20-13.19.18:647][666]LogContentValidation: Display: Validating Texture2D /Game/Materials/white_tiles/tfihaepg_8K_Albedo.tfihaepg_8K_Albedo
+[2020.05.20-13.19.18:647][666]LogContentValidation: Display: Validating Texture2D /Game/Materials/white_tiles/tfihaepg_8K_Roughness.tfihaepg_8K_Roughness
+[2020.05.20-13.19.18:647][666]LogContentValidation: Display: Validating Texture2D /Game/Materials/white_tiles/tfihaepg_8K_Normal.tfihaepg_8K_Normal
+[2020.05.20-13.19.18:647][666]LogContentValidation: Display: Validating Texture2D /Game/Materials/white_tiles/tfihaepg_8K_Displacement.tfihaepg_8K_Displacement
+[2020.05.20-13.19.18:647][666]LogContentValidation: Display: Validating ObjectRedirector /Game/Materials/07_Off_White_Tiles_2x2_M_tfihaepg_8K_inst.07_Off_White_Tiles_2x2_M_tfihaepg_8K_inst
+[2020.05.20-13.19.21:717][759]LogWindows: LaunchURL http://docs.unrealengine.com/latest/INT/index.html?utm_source=editor&utm_medium=docs&utm_campaign=help_menu
+[2020.05.20-13.19.27:782][907]LogSavePackage: Moving '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/white_tiles326B07FC44F8047EC6E4A99113CD2A91.tmp' to '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Materials/white_tiles/white_tiles.uasset'
+[2020.05.20-13.19.28:168][907]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2020.05.20-13.19.28:264][907]LogUObjectHash: Compacting FUObjectHashTables data took   5.05ms
+[2020.05.20-13.19.28:324][907]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2020.05.20-13.19.28:367][907]LogSavePackage: Moving '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/07_Off_White_Tiles_2x2_M_tfihaep0340058348C9289B658C22A2824DFDA7.tmp' to '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Materials/07_Off_White_Tiles_2x2_M_tfihaepg_8K_inst.uasset'
+[2020.05.20-13.19.28:468][907]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.20-13.19.28:468][907]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/Materials/white_tiles/white_tiles.white_tiles
+[2020.05.20-13.19.28:469][907]LogContentValidation: Display: Validating ObjectRedirector /Game/Materials/07_Off_White_Tiles_2x2_M_tfihaepg_8K_inst.07_Off_White_Tiles_2x2_M_tfihaepg_8K_inst
+[2020.05.20-13.19.40:275][210]LogSavePackage: Moving '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/tiles_8K_Roughness3A5962F0489A9D5B388D99BD2D084333.tmp' to '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Materials/white_tiles/tiles_8K_Roughness.uasset'
+[2020.05.20-13.19.40:525][210]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2020.05.20-13.19.40:588][210]LogUObjectHash: Compacting FUObjectHashTables data took   4.08ms
+[2020.05.20-13.19.40:634][210]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2020.05.20-13.19.40:669][210]LogSavePackage: Moving '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/white_tilesF97A291B4CC764253189F4A17E332320.tmp' to '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Materials/white_tiles/white_tiles.uasset'
+[2020.05.20-13.19.40:738][210]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.20-13.19.40:738][210]LogContentValidation: Display: Validating Texture2D /Game/Materials/white_tiles/tiles_8K_Roughness.tiles_8K_Roughness
+[2020.05.20-13.19.40:738][210]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/Materials/white_tiles/white_tiles.white_tiles
+[2020.05.20-13.19.52:498][449]LogSavePackage: Moving '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/tilest_8K_NormalC81EA4404721513E01E598816D9CAB44.tmp' to '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Materials/white_tiles/tilest_8K_Normal.uasset'
+[2020.05.20-13.19.52:703][449]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2020.05.20-13.19.52:753][449]LogUObjectHash: Compacting FUObjectHashTables data took   3.68ms
+[2020.05.20-13.19.52:795][449]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2020.05.20-13.19.52:836][449]LogSavePackage: Moving '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/white_tiles295983AB40879A89558EC6983975EFF6.tmp' to '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Materials/white_tiles/white_tiles.uasset'
+[2020.05.20-13.19.52:898][449]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.20-13.19.52:898][449]LogContentValidation: Display: Validating Texture2D /Game/Materials/white_tiles/tilest_8K_Normal.tilest_8K_Normal
+[2020.05.20-13.19.52:898][449]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/Materials/white_tiles/white_tiles.white_tiles
+[2020.05.20-13.20.00:162][575]LogSavePackage: Moving '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/tiles_8K_Normal36BB6F544F827AE52FB5A8840828C7DF.tmp' to '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Materials/white_tiles/tiles_8K_Normal.uasset'
+[2020.05.20-13.20.00:363][575]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2020.05.20-13.20.00:411][575]LogUObjectHash: Compacting FUObjectHashTables data took   2.73ms
+[2020.05.20-13.20.00:452][575]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2020.05.20-13.20.00:532][575]LogSavePackage: Moving '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/white_tiles04FE807041F2FF236E53DF96241C6B92.tmp' to '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Materials/white_tiles/white_tiles.uasset'
+[2020.05.20-13.20.00:582][575]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.20-13.20.00:582][575]LogContentValidation: Display: Validating Texture2D /Game/Materials/white_tiles/tiles_8K_Normal.tiles_8K_Normal
+[2020.05.20-13.20.00:582][575]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/Materials/white_tiles/white_tiles.white_tiles
+[2020.05.20-13.20.11:908][822]LogSavePackage: Moving '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/tiles_8K_Displacement363028BB4B4001A49D8F7B9179DC5BE8.tmp' to '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Materials/white_tiles/tiles_8K_Displacement.uasset'
+[2020.05.20-13.20.12:122][822]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2020.05.20-13.20.12:184][822]LogUObjectHash: Compacting FUObjectHashTables data took   3.65ms
+[2020.05.20-13.20.12:229][822]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2020.05.20-13.20.12:281][822]AssetCheck: New page: Asset Save: tiles_8K_Displacement
+[2020.05.20-13.20.12:281][822]LogContentValidation: Display: Validating Texture2D /Game/Materials/white_tiles/tiles_8K_Displacement.tiles_8K_Displacement
+[2020.05.20-13.20.20:717][981]LogSavePackage: Moving '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/tiles_8K_Albedo291CC08D42320C57E3470BBBFEAC8771.tmp' to '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Materials/white_tiles/tiles_8K_Albedo.uasset'
+[2020.05.20-13.20.20:903][981]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2020.05.20-13.20.20:950][981]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
+[2020.05.20-13.20.20:989][981]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2020.05.20-13.20.21:025][981]LogSavePackage: Moving '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/white_tiles09BF5EFB4EB4A2736E710C9BD495905C.tmp' to '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Materials/white_tiles/white_tiles.uasset'
+[2020.05.20-13.20.21:071][981]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.20-13.20.21:071][981]LogContentValidation: Display: Validating Texture2D /Game/Materials/white_tiles/tiles_8K_Albedo.tiles_8K_Albedo
+[2020.05.20-13.20.21:071][981]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/Materials/white_tiles/white_tiles.white_tiles
+[2020.05.20-13.20.21:876][  6]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2020.05.20-13.20.21:914][  6]LogSavePackage: Moving '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/StockroomA01536094F8D36C9EDF009B973823416.tmp' to '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Maps/Stockroom.umap'
+[2020.05.20-13.20.21:973][  6]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Stockroom_BuiltData" FILE="../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Maps/Stockroom_BuiltData.uasset" SILENT=true
+[2020.05.20-13.20.21:999][  6]LogSavePackage: Moving '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/Stockroom_BuiltData0B4D2AE0487171672DC941A731584C87.tmp' to '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Maps/Stockroom_BuiltData.uasset'
+[2020.05.20-13.20.22:027][  6]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.20-13.20.22:027][  6]LogContentValidation: Display: Validating World /Game/Maps/Stockroom.Stockroom
+[2020.05.20-13.20.22:027][  6]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Stockroom_BuiltData.Stockroom_BuiltData
+[2020.05.20-13.21.33:805][617]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2020.05.20-13.21.34:355][629]Cmd: DELETE
+[2020.05.20-13.21.34:355][629]Cmd: ACTOR DELETE
+[2020.05.20-13.21.34:361][629]LogEditorActor: Deleted Actor: BP_Sky_Sphere_C
+[2020.05.20-13.21.34:449][629]LogUObjectHash: Compacting FUObjectHashTables data took   3.86ms
+[2020.05.20-13.21.34:453][629]LogEditorActor: Deleted 1 Actors (0.097 secs)
+[2020.05.20-13.21.36:070][689]LogEditorViewport: Clicking Background
+[2020.05.20-13.21.37:069][723]LogEditorViewport: Clicking Background
+[2020.05.20-13.21.43:744][916]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
+[2020.05.20-13.21.46:370][994]Cmd: DELETE
+[2020.05.20-13.21.46:370][994]Cmd: ACTOR DELETE
+[2020.05.20-13.21.46:374][994]LogEditorActor: Deleted Actor: DirectionalLight
+[2020.05.20-13.21.46:451][994]LogUObjectHash: Compacting FUObjectHashTables data took   2.60ms
+[2020.05.20-13.21.46:455][994]LogEditorActor: Deleted 1 Actors (0.084 secs)
+[2020.05.20-13.21.50:547][129]LogEditorViewport: Clicking on Actor (LMB): AtmosphericFog (Atmospheric Fog)
+[2020.05.20-13.21.51:307][150]Cmd: DELETE
+[2020.05.20-13.21.51:307][150]Cmd: ACTOR DELETE
+[2020.05.20-13.21.51:311][150]LogEditorActor: Deleted Actor: AtmosphericFog
+[2020.05.20-13.21.51:410][150]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
+[2020.05.20-13.21.51:412][150]LogEditorActor: Deleted 1 Actors (0.104 secs)
+[2020.05.20-13.22.00:464][446]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight)
+[2020.05.20-13.22.01:311][467]Cmd: DELETE
+[2020.05.20-13.22.01:311][467]Cmd: ACTOR DELETE
+[2020.05.20-13.22.01:317][467]LogEditorActor: Deleted Actor: SkyLight
+[2020.05.20-13.22.01:389][467]LogUObjectHash: Compacting FUObjectHashTables data took   2.32ms
+[2020.05.20-13.22.01:390][467]LogEditorActor: Deleted 1 Actors (0.078 secs)
+[2020.05.20-13.22.03:092][524]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCapture)
+[2020.05.20-13.22.05:520][594]Cmd: DELETE
+[2020.05.20-13.22.05:520][594]Cmd: ACTOR DELETE
+[2020.05.20-13.22.05:526][594]LogEditorActor: Deleted Actor: SphereReflectionCapture
+[2020.05.20-13.22.05:603][594]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2020.05.20-13.22.05:604][594]LogEditorActor: Deleted 1 Actors (0.084 secs)
+[2020.05.20-13.22.11:201][800]Cmd: TRANSACTION UNDO
+[2020.05.20-13.22.11:201][800]LogEditorTransaction: Undo Delete Actors
+[2020.05.20-13.22.11:475][803]Cmd: TRANSACTION UNDO
+[2020.05.20-13.22.11:475][803]LogEditorTransaction: Undo Clicking on Actors
+[2020.05.20-13.22.14:469][911]Cmd: TRANSACTION UNDO
+[2020.05.20-13.22.14:469][911]LogEditorTransaction: Undo Delete Actors
+[2020.05.20-13.22.17:180][  1]Cmd: SELECT NONE
+[2020.05.20-13.22.20:396][103]Cmd: TRANSACTION UNDO
+[2020.05.20-13.22.20:396][103]LogEditorTransaction: Undo Select None
+[2020.05.20-13.22.21:212][127]Cmd: TRANSACTION UNDO
+[2020.05.20-13.22.21:213][127]LogEditorTransaction: Undo Clicking on Actors
+[2020.05.20-13.22.23:940][219]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCapture)
+[2020.05.20-13.22.24:707][240]Cmd: DELETE
+[2020.05.20-13.22.24:707][240]Cmd: ACTOR DELETE
+[2020.05.20-13.22.24:710][240]LogEditorActor: Deleted Actor: SphereReflectionCapture
+[2020.05.20-13.22.24:786][240]LogUObjectHash: Compacting FUObjectHashTables data took   6.30ms
+[2020.05.20-13.22.24:789][240]LogEditorActor: Deleted 1 Actors (0.081 secs)
+[2020.05.20-13.22.26:405][292]LogUObjectHash: Compacting FUObjectHashTables data took   1.98ms
+[2020.05.20-13.22.26:442][292]LogSavePackage: Moving '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/Stockroom6B6FC4CD42CE658CA7E9008FB8BBE0C7.tmp' to '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Maps/Stockroom.umap'
+[2020.05.20-13.22.26:501][292]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Stockroom_BuiltData" FILE="../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Maps/Stockroom_BuiltData.uasset" SILENT=true
+[2020.05.20-13.22.26:531][292]LogSavePackage: Moving '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/Stockroom_BuiltDataB187716C49195864C5867BB9CF4F8A14.tmp' to '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Maps/Stockroom_BuiltData.uasset'
+[2020.05.20-13.22.26:562][292]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.20-13.22.26:563][292]LogContentValidation: Display: Validating World /Game/Maps/Stockroom.Stockroom
+[2020.05.20-13.22.26:563][292]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Stockroom_BuiltData.Stockroom_BuiltData
+[2020.05.20-13.22.43:540][873]LogSavePackage: Moving '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/Standard_MasterMaterial672C463F4807F2A9A6BA309F7E25F1F1.tmp' to '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Materials/white_tiles/Standard_MasterMaterial.uasset'
+[2020.05.20-13.22.43:755][873]LogUObjectHash: Compacting FUObjectHashTables data took   2.94ms
+[2020.05.20-13.22.43:822][873]LogUObjectHash: Compacting FUObjectHashTables data took   4.00ms
+[2020.05.20-13.22.43:869][873]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2020.05.20-13.22.43:913][873]LogSavePackage: Moving '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/white_tilesFDAC8608404342BD714AEBAAAD843A8C.tmp' to '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Materials/white_tiles/white_tiles.uasset'
+[2020.05.20-13.22.43:966][873]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.20-13.22.43:966][873]LogContentValidation: Display: Validating Material /Game/Materials/white_tiles/Standard_MasterMaterial.Standard_MasterMaterial
+[2020.05.20-13.22.43:966][873]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/Materials/white_tiles/white_tiles.white_tiles
+[2020.05.20-13.22.45:548][933]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2020.05.20-13.22.45:576][933]LogSavePackage: Moving '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/Stockroom820200DD4E0D910DF352CA9DB9623B30.tmp' to '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Maps/Stockroom.umap'
+[2020.05.20-13.22.45:628][933]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Stockroom_BuiltData" FILE="../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Maps/Stockroom_BuiltData.uasset" SILENT=true
+[2020.05.20-13.22.45:654][933]LogSavePackage: Moving '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/Stockroom_BuiltDataCC1B192B4E5D1CA1F80B14B4D679493B.tmp' to '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Maps/Stockroom_BuiltData.uasset'
+[2020.05.20-13.22.45:686][933]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.20-13.22.45:686][933]LogContentValidation: Display: Validating World /Game/Maps/Stockroom.Stockroom
+[2020.05.20-13.22.45:687][933]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Stockroom_BuiltData.Stockroom_BuiltData
