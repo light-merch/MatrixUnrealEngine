@@ -1876,3 +1876,407 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.05.24-13.51.01:325][243]AssetCheck: New page: Asset Save: multiple assets
 [2020.05.24-13.51.01:325][243]LogContentValidation: Display: Validating World /Game/Maps/Stockroom.Stockroom
 [2020.05.24-13.51.01:325][243]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Stockroom_BuiltData.Stockroom_BuiltData
+[2020.05.24-13.53.19:039][395]LogActorFactory: Actor Factory created Cube
+[2020.05.24-13.53.20:549][443]LogActorFactory: Actor Factory created Cube
+[2020.05.24-13.53.30:055][694]LogAnimation: Warning: SkeletalMesh SK_RU74 has no skeleton. This needs to fixed before an animation can be set
+[2020.05.24-13.53.30:055][694]LogAnimation: Warning: SkeletalMesh SK_Rifle has no skeleton. This needs to fixed before an animation can be set
+[2020.05.24-13.53.35:813][859]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2020.05.24-13.53.35:929][860]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 34
+[2020.05.24-13.53.35:929][860]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 25
+[2020.05.24-13.53.35:929][860]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 16
+[2020.05.24-13.53.35:929][860]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 7
+[2020.05.24-13.53.39:220][932]LogEditorViewport: Clicking Background
+[2020.05.24-13.53.51:411][293]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2020.05.24-13.53.53:287][331]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2020.05.24-13.54.09:339][767]LogUObjectHash: Compacting FUObjectHashTables data took   6.10ms
+[2020.05.24-13.54.09:553][767]LogSavePackage: Moving '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/StockroomA27EC87840F41F76A417448D5624048C.tmp' to '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Maps/Stockroom.umap'
+[2020.05.24-13.54.09:593][767]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Stockroom_BuiltData" FILE="../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Maps/Stockroom_BuiltData.uasset" SILENT=true
+[2020.05.24-13.54.09:696][767]LogSavePackage: Moving '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/Stockroom_BuiltData660C301445D4BDBD0AB6A9B702CE1CA0.tmp' to '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Maps/Stockroom_BuiltData.uasset'
+[2020.05.24-13.54.09:723][767]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.24-13.54.09:723][767]LogContentValidation: Display: Validating World /Game/Maps/Stockroom.Stockroom
+[2020.05.24-13.54.09:723][767]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Stockroom_BuiltData.Stockroom_BuiltData
+[2020.05.24-13.54.26:196][286]Cmd: SELECT NONE
+[2020.05.24-13.54.26:763][300]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2020.05.24-13.54.26:964][300]LogSavePackage: Moving '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/Stockroom58AD5D284DA3596C7CBD78922192682C.tmp' to '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Maps/Stockroom.umap'
+[2020.05.24-13.54.27:002][300]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Stockroom_BuiltData" FILE="../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Maps/Stockroom_BuiltData.uasset" SILENT=true
+[2020.05.24-13.54.27:106][300]LogSavePackage: Moving '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/Stockroom_BuiltDataE8364A814A320E7B0C540EB652982619.tmp' to '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Maps/Stockroom_BuiltData.uasset'
+[2020.05.24-13.54.27:133][300]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.24-13.54.27:133][300]LogContentValidation: Display: Validating World /Game/Maps/Stockroom.Stockroom
+[2020.05.24-13.54.27:133][300]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Stockroom_BuiltData.Stockroom_BuiltData
+[2020.05.24-13.59.12:213][100]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2020.05.24-13.59.12:807][114]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2020.05.24-14.00.30:680][221]Cmd: SELECT NONE
+[2020.05.24-14.00.32:260][267]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2020.05.24-14.00.32:454][267]LogSavePackage: Moving '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/Stockroom939B6658404A9518E2BA2C87B54C2D52.tmp' to '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Maps/Stockroom.umap'
+[2020.05.24-14.00.32:488][267]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Stockroom_BuiltData" FILE="../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Maps/Stockroom_BuiltData.uasset" SILENT=true
+[2020.05.24-14.00.32:590][267]LogSavePackage: Moving '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/Stockroom_BuiltDataFB045F614D049A24CDC286B6407F4FC4.tmp' to '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Maps/Stockroom_BuiltData.uasset'
+[2020.05.24-14.00.32:623][267]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.24-14.00.32:623][267]LogContentValidation: Display: Validating World /Game/Maps/Stockroom.Stockroom
+[2020.05.24-14.00.32:623][267]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Stockroom_BuiltData.Stockroom_BuiltData
+[2020.05.24-14.00.39:366][483]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2020.05.24-14.00.39:576][483]LogSavePackage: Moving '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/Stockroom92B2ED8843D901ED8C97E7AAF3BA9EA7.tmp' to '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Maps/Stockroom.umap'
+[2020.05.24-14.00.39:614][483]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Stockroom_BuiltData" FILE="../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Maps/Stockroom_BuiltData.uasset" SILENT=true
+[2020.05.24-14.00.39:724][483]LogSavePackage: Moving '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/Stockroom_BuiltDataDC8CC9D944C9B0EDDB11319A4F4FFA43.tmp' to '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Maps/Stockroom_BuiltData.uasset'
+[2020.05.24-14.00.39:752][483]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.24-14.00.39:752][483]LogContentValidation: Display: Validating World /Game/Maps/Stockroom.Stockroom
+[2020.05.24-14.00.39:752][483]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Stockroom_BuiltData.Stockroom_BuiltData
+[2020.05.24-14.00.47:216][714]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2020.05.24-14.00.49:262][771]Cmd: SELECT NONE
+[2020.05.24-14.00.49:749][781]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2020.05.24-14.00.49:937][781]LogSavePackage: Moving '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/Stockroom1E0DC2E54E26B90F55F3D183E12B36D1.tmp' to '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Maps/Stockroom.umap'
+[2020.05.24-14.00.49:972][781]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Stockroom_BuiltData" FILE="../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Maps/Stockroom_BuiltData.uasset" SILENT=true
+[2020.05.24-14.00.50:068][781]LogSavePackage: Moving '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/Stockroom_BuiltDataDFD16A7841B686524965C4B31CF98C0A.tmp' to '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Maps/Stockroom_BuiltData.uasset'
+[2020.05.24-14.00.50:097][781]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.24-14.00.50:097][781]LogContentValidation: Display: Validating World /Game/Maps/Stockroom.Stockroom
+[2020.05.24-14.00.50:097][781]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Stockroom_BuiltData.Stockroom_BuiltData
+[2020.05.24-14.01.02:130][145]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2020.05.24-14.01.09:581][342]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2020.05.24-14.01.09:767][342]LogSavePackage: Moving '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/Stockroom8D68E9F14B744C0C85BF54A1570AD9C9.tmp' to '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Maps/Stockroom.umap'
+[2020.05.24-14.01.09:798][342]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Stockroom_BuiltData" FILE="../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Maps/Stockroom_BuiltData.uasset" SILENT=true
+[2020.05.24-14.01.09:896][342]LogSavePackage: Moving '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/Stockroom_BuiltData1B07AB3E4A08FBD7C0413EB4F089F904.tmp' to '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Maps/Stockroom_BuiltData.uasset'
+[2020.05.24-14.01.09:922][342]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.24-14.01.09:922][342]LogContentValidation: Display: Validating World /Game/Maps/Stockroom.Stockroom
+[2020.05.24-14.01.09:922][342]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Stockroom_BuiltData.Stockroom_BuiltData
+[2020.05.24-14.01.10:840][369]Cmd: SELECT NONE
+[2020.05.24-14.01.14:772][489]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2020.05.24-14.01.19:006][585]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2020.05.24-14.01.19:155][586]Cmd: SELECT NONE
+[2020.05.24-14.01.19:669][599]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2020.05.24-14.01.19:861][599]LogSavePackage: Moving '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/StockroomC8AB4E0444FF4762BF8CA5BC494ED258.tmp' to '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Maps/Stockroom.umap'
+[2020.05.24-14.01.19:897][599]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Stockroom_BuiltData" FILE="../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Maps/Stockroom_BuiltData.uasset" SILENT=true
+[2020.05.24-14.01.20:003][599]LogSavePackage: Moving '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/Stockroom_BuiltData6AECFF144DD352166BAF9DBFFECD0482.tmp' to '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Maps/Stockroom_BuiltData.uasset'
+[2020.05.24-14.01.20:023][599]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.24-14.01.20:023][599]LogContentValidation: Display: Validating World /Game/Maps/Stockroom.Stockroom
+[2020.05.24-14.01.20:023][599]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Stockroom_BuiltData.Stockroom_BuiltData
+[2020.05.24-14.02.09:839][270]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2020.05.24-14.02.10:776][295]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Axe_4)
+[2020.05.24-14.02.27:961][836]Cmd: SELECT NONE
+[2020.05.24-14.02.32:704][990]LogUObjectHash: Compacting FUObjectHashTables data took   2.38ms
+[2020.05.24-14.02.32:904][990]LogSavePackage: Moving '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/StockroomA195BF3B4D18BDCB6D4FD7B084283273.tmp' to '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Maps/Stockroom.umap'
+[2020.05.24-14.02.32:946][990]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Stockroom_BuiltData" FILE="../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Maps/Stockroom_BuiltData.uasset" SILENT=true
+[2020.05.24-14.02.33:051][990]LogSavePackage: Moving '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/Stockroom_BuiltDataE1B2329A496111F3038FB8AE05E52CE3.tmp' to '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Maps/Stockroom_BuiltData.uasset'
+[2020.05.24-14.02.33:079][990]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.24-14.02.33:079][990]LogContentValidation: Display: Validating World /Game/Maps/Stockroom.Stockroom
+[2020.05.24-14.02.33:079][990]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Stockroom_BuiltData.Stockroom_BuiltData
+[2020.05.24-14.02.41:475][278]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Bayonet_3)
+[2020.05.24-14.02.48:212][479]Cmd: SELECT NONE
+[2020.05.24-14.02.48:958][497]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2020.05.24-14.02.49:148][497]LogSavePackage: Moving '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/StockroomFE396490452119D1181795ABDE2919CF.tmp' to '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Maps/Stockroom.umap'
+[2020.05.24-14.02.49:186][497]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Stockroom_BuiltData" FILE="../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Maps/Stockroom_BuiltData.uasset" SILENT=true
+[2020.05.24-14.02.49:290][497]LogSavePackage: Moving '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/Stockroom_BuiltDataB8BE5D1C470A2968E9FDA29AEEB7402D.tmp' to '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Maps/Stockroom_BuiltData.uasset'
+[2020.05.24-14.02.49:320][497]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.24-14.02.49:320][497]LogContentValidation: Display: Validating World /Game/Maps/Stockroom.Stockroom
+[2020.05.24-14.02.49:320][497]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Stockroom_BuiltData.Stockroom_BuiltData
+[2020.05.24-14.10.20:489][729]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2020.05.24-14.10.32:097][ 24]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2020.05.24-14.10.32:358][ 29]Cmd: SELECT NONE
+[2020.05.24-14.10.32:957][ 44]LogUObjectHash: Compacting FUObjectHashTables data took   2.89ms
+[2020.05.24-14.10.33:175][ 44]LogSavePackage: Moving '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/StockroomDA2CB01E4E8ED975C85714B6109CC88C.tmp' to '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Maps/Stockroom.umap'
+[2020.05.24-14.10.33:212][ 44]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Stockroom_BuiltData" FILE="../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Maps/Stockroom_BuiltData.uasset" SILENT=true
+[2020.05.24-14.10.33:322][ 44]LogSavePackage: Moving '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/Stockroom_BuiltDataD748CBDB4AA81C2A6F9FE19DAD65DE72.tmp' to '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Maps/Stockroom_BuiltData.uasset'
+[2020.05.24-14.10.33:349][ 44]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.24-14.10.33:349][ 44]LogContentValidation: Display: Validating World /Game/Maps/Stockroom.Stockroom
+[2020.05.24-14.10.33:349][ 44]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Stockroom_BuiltData.Stockroom_BuiltData
+[2020.05.24-14.10.41:619][259]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2020.05.24-14.10.44:254][346]Cmd: SELECT NONE
+[2020.05.24-14.10.44:809][363]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2020.05.24-14.10.45:033][363]LogSavePackage: Moving '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/Stockroom5B25E0DA43F35DF64B46C1B19CC334E5.tmp' to '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Maps/Stockroom.umap'
+[2020.05.24-14.10.45:073][363]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Stockroom_BuiltData" FILE="../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Maps/Stockroom_BuiltData.uasset" SILENT=true
+[2020.05.24-14.10.45:194][363]LogSavePackage: Moving '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/Stockroom_BuiltDataF00FD480468A6807A8E485949924FF11.tmp' to '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Maps/Stockroom_BuiltData.uasset'
+[2020.05.24-14.10.45:230][363]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.24-14.10.45:230][363]LogContentValidation: Display: Validating World /Game/Maps/Stockroom.Stockroom
+[2020.05.24-14.10.45:231][363]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Stockroom_BuiltData.Stockroom_BuiltData
+[2020.05.24-14.11.36:557][169]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cylinder21)
+[2020.05.24-14.11.56:685][731]Cmd: SELECT NONE
+[2020.05.24-14.11.57:215][747]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2020.05.24-14.11.57:409][747]LogSavePackage: Moving '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/Stockroom507C8FCA4800B896117FE786A5C36C79.tmp' to '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Maps/Stockroom.umap'
+[2020.05.24-14.11.57:448][747]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Stockroom_BuiltData" FILE="../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Maps/Stockroom_BuiltData.uasset" SILENT=true
+[2020.05.24-14.11.57:556][747]LogSavePackage: Moving '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/Stockroom_BuiltDataA75A9B294A7EDC21B7F6C2A2474077F5.tmp' to '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Maps/Stockroom_BuiltData.uasset'
+[2020.05.24-14.11.57:587][747]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.24-14.11.57:587][747]LogContentValidation: Display: Validating World /Game/Maps/Stockroom.Stockroom
+[2020.05.24-14.11.57:587][747]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Stockroom_BuiltData.Stockroom_BuiltData
+[2020.05.24-14.12.26:648][155]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Structural_Beam_01f2)
+[2020.05.24-14.12.29:053][224]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Structural_Beam_01f)
+[2020.05.24-14.12.32:751][328]Cmd: EDIT COPY
+[2020.05.24-14.12.33:090][338]Cmd: EDIT PASTE
+[2020.05.24-14.12.39:140][521]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube)
+[2020.05.24-14.12.40:954][572]Cmd: TRANSACTION UNDO
+[2020.05.24-14.12.40:954][572]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2020.05.24-14.12.53:702][889]Cmd: SELECT NONE
+[2020.05.24-14.12.54:209][902]LogUObjectHash: Compacting FUObjectHashTables data took   4.55ms
+[2020.05.24-14.12.54:393][902]LogSavePackage: Moving '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/StockroomB74BEDCC4EF515152C18EB9BA1C259B5.tmp' to '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Maps/Stockroom.umap'
+[2020.05.24-14.12.54:429][902]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Stockroom_BuiltData" FILE="../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Maps/Stockroom_BuiltData.uasset" SILENT=true
+[2020.05.24-14.12.54:527][902]LogSavePackage: Moving '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/Stockroom_BuiltData12C020D347A129C8C621129B148A3AE7.tmp' to '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Maps/Stockroom_BuiltData.uasset'
+[2020.05.24-14.12.54:560][902]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.24-14.12.54:561][902]LogContentValidation: Display: Validating World /Game/Maps/Stockroom.Stockroom
+[2020.05.24-14.12.54:561][902]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Stockroom_BuiltData.Stockroom_BuiltData
+[2020.05.24-14.12.59:911][ 94]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Structural_Beam_01e9)
+[2020.05.24-14.13.01:167][131]Cmd: SELECT NONE
+[2020.05.24-14.13.02:213][168]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Structural_Beam_01f5)
+[2020.05.24-14.13.15:326][524]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2020.05.24-14.13.15:466][525]Cmd: SELECT NONE
+[2020.05.24-14.13.15:996][540]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2020.05.24-14.13.16:180][540]LogSavePackage: Moving '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/StockroomB77DC18A437663166D2920B347DD6A0E.tmp' to '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Maps/Stockroom.umap'
+[2020.05.24-14.13.16:213][540]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Stockroom_BuiltData" FILE="../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Maps/Stockroom_BuiltData.uasset" SILENT=true
+[2020.05.24-14.13.16:311][540]LogSavePackage: Moving '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/Stockroom_BuiltDataEBF497A345F60AD97D6257AE2ADC2304.tmp' to '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Maps/Stockroom_BuiltData.uasset'
+[2020.05.24-14.13.16:335][540]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.24-14.13.16:335][540]LogContentValidation: Display: Validating World /Game/Maps/Stockroom.Stockroom
+[2020.05.24-14.13.16:335][540]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Stockroom_BuiltData.Stockroom_BuiltData
+[2020.05.24-14.14.09:723][292]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2020.05.24-14.14.09:913][292]LogSavePackage: Moving '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/StockroomD0435485442C4AD7CA8DBEB26D52F1E2.tmp' to '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Maps/Stockroom.umap'
+[2020.05.24-14.14.09:951][292]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Stockroom_BuiltData" FILE="../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Maps/Stockroom_BuiltData.uasset" SILENT=true
+[2020.05.24-14.14.10:058][292]LogSavePackage: Moving '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/Stockroom_BuiltData4251857449B7163681BA96A71D7AF6F0.tmp' to '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Maps/Stockroom_BuiltData.uasset'
+[2020.05.24-14.14.10:084][292]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.24-14.14.10:084][292]LogContentValidation: Display: Validating World /Game/Maps/Stockroom.Stockroom
+[2020.05.24-14.14.10:084][292]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Stockroom_BuiltData.Stockroom_BuiltData
+[2020.05.24-14.14.20:487][656]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Scope_25x56_X5)
+[2020.05.24-14.14.24:419][782]Cmd: SELECT NONE
+[2020.05.24-14.14.24:919][797]LogUObjectHash: Compacting FUObjectHashTables data took   2.59ms
+[2020.05.24-14.14.25:108][797]LogSavePackage: Moving '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/StockroomF04DA32A45B55326EAE96DB9BCF9530B.tmp' to '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Maps/Stockroom.umap'
+[2020.05.24-14.14.25:148][797]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Stockroom_BuiltData" FILE="../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Maps/Stockroom_BuiltData.uasset" SILENT=true
+[2020.05.24-14.14.25:253][797]LogSavePackage: Moving '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/Stockroom_BuiltData471C3D11430466B955257595AD23F971.tmp' to '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Maps/Stockroom_BuiltData.uasset'
+[2020.05.24-14.14.25:280][797]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.24-14.14.25:280][797]LogContentValidation: Display: Validating World /Game/Maps/Stockroom.Stockroom
+[2020.05.24-14.14.25:280][797]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Stockroom_BuiltData.Stockroom_BuiltData
+[2020.05.24-14.14.35:160][134]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2020.05.24-14.14.35:354][134]LogSavePackage: Moving '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/StockroomAA6AB33741311C13571CECAEF747E9FA.tmp' to '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Maps/Stockroom.umap'
+[2020.05.24-14.14.35:393][134]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Stockroom_BuiltData" FILE="../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Maps/Stockroom_BuiltData.uasset" SILENT=true
+[2020.05.24-14.14.35:497][134]LogSavePackage: Moving '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/Stockroom_BuiltDataC3FDDCDB4FDF703270731FA33242DBF1.tmp' to '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Maps/Stockroom_BuiltData.uasset'
+[2020.05.24-14.14.35:529][134]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.24-14.14.35:529][134]LogContentValidation: Display: Validating World /Game/Maps/Stockroom.Stockroom
+[2020.05.24-14.14.35:529][134]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Stockroom_BuiltData.Stockroom_BuiltData
+[2020.05.24-14.17.35:260][765]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.05.24-14.17.35:260][765]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.05.24-14.18.19:260][131]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Structural_Beam_01b56)
+[2020.05.24-14.18.20:291][156]Cmd: EDIT COPY
+[2020.05.24-14.18.20:595][164]Cmd: EDIT PASTE
+[2020.05.24-14.18.26:419][322]Cmd: EDIT COPY
+[2020.05.24-14.18.26:728][330]Cmd: EDIT PASTE
+[2020.05.24-14.18.30:561][433]Cmd: TRANSACTION UNDO
+[2020.05.24-14.18.30:561][433]LogEditorTransaction: Undo Move Actors
+[2020.05.24-14.18.30:868][437]Cmd: TRANSACTION UNDO
+[2020.05.24-14.18.30:868][437]LogEditorTransaction: Undo Paste
+[2020.05.24-14.18.31:842][461]Cmd: DELETE
+[2020.05.24-14.18.31:843][461]Cmd: ACTOR DELETE
+[2020.05.24-14.18.31:866][461]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.05.24-14.18.31:951][461]LogUObjectHash: Compacting FUObjectHashTables data took   4.98ms
+[2020.05.24-14.18.31:956][461]LogEditorActor: Deleted 1 Actors (0.113 secs)
+[2020.05.24-14.18.32:948][486]LogUObjectHash: Compacting FUObjectHashTables data took   4.68ms
+[2020.05.24-14.18.33:144][486]LogSavePackage: Moving '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/StockroomE4F2B05E4CE6C9BED4ACA8A9FF12BFB8.tmp' to '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Maps/Stockroom.umap'
+[2020.05.24-14.18.33:177][486]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Stockroom_BuiltData" FILE="../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Maps/Stockroom_BuiltData.uasset" SILENT=true
+[2020.05.24-14.18.33:281][486]LogSavePackage: Moving '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/Stockroom_BuiltData8CD0136146EF35BDF5C629B9A56D4D07.tmp' to '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Maps/Stockroom_BuiltData.uasset'
+[2020.05.24-14.18.33:308][486]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.24-14.18.33:308][486]LogContentValidation: Display: Validating World /Game/Maps/Stockroom.Stockroom
+[2020.05.24-14.18.33:308][486]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Stockroom_BuiltData.Stockroom_BuiltData
+[2020.05.24-14.18.43:808][757]Cmd: SELECT NONE
+[2020.05.24-14.18.48:166][892]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Structural_Beam_01e4)
+[2020.05.24-14.20.02:755][612]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Structural_Beam_01b12)
+[2020.05.24-14.20.04:641][666]Cmd: TRANSACTION UNDO
+[2020.05.24-14.20.04:642][666]LogEditorTransaction: Undo Clicking on Actors
+[2020.05.24-14.20.42:921][784]Cmd: EDIT COPY
+[2020.05.24-14.20.43:245][792]Cmd: EDIT PASTE
+[2020.05.24-14.20.53:219][ 77]Cmd: SELECT NONE
+[2020.05.24-14.20.54:027][102]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Shuriken_6)
+[2020.05.24-14.20.55:912][149]Cmd: DELETE
+[2020.05.24-14.20.55:912][149]Cmd: ACTOR DELETE
+[2020.05.24-14.20.55:928][149]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.05.24-14.20.56:015][149]LogUObjectHash: Compacting FUObjectHashTables data took   5.66ms
+[2020.05.24-14.20.56:022][149]LogEditorActor: Deleted 1 Actors (0.110 secs)
+[2020.05.24-14.21.00:146][283]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Shuriken_3)
+[2020.05.24-14.21.01:036][310]Cmd: EDIT COPY
+[2020.05.24-14.21.01:288][318]Cmd: EDIT PASTE
+[2020.05.24-14.21.17:234][746]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2020.05.24-14.21.17:508][751]Cmd: SELECT NONE
+[2020.05.24-14.21.18:330][774]LogUObjectHash: Compacting FUObjectHashTables data took   4.42ms
+[2020.05.24-14.21.18:545][774]LogSavePackage: Moving '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/Stockroom6F29E8834C659EBF41E42381F1A249CE.tmp' to '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Maps/Stockroom.umap'
+[2020.05.24-14.21.18:587][774]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Stockroom_BuiltData" FILE="../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Maps/Stockroom_BuiltData.uasset" SILENT=true
+[2020.05.24-14.21.18:693][774]LogSavePackage: Moving '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/Stockroom_BuiltData2C1444894DBF11D13924DAAC78E78176.tmp' to '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Maps/Stockroom_BuiltData.uasset'
+[2020.05.24-14.21.18:720][774]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.24-14.21.18:720][774]LogContentValidation: Display: Validating World /Game/Maps/Stockroom.Stockroom
+[2020.05.24-14.21.18:720][774]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Stockroom_BuiltData.Stockroom_BuiltData
+[2020.05.24-14.21.36:280][300]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (SK_M9_Knife)
+[2020.05.24-14.21.58:952][950]Cmd: SELECT NONE
+[2020.05.24-14.21.59:514][964]LogUObjectHash: Compacting FUObjectHashTables data took   5.62ms
+[2020.05.24-14.21.59:734][964]LogSavePackage: Moving '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/StockroomA84D62EE4F0D8910F1D28A82FE53DCB1.tmp' to '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Maps/Stockroom.umap'
+[2020.05.24-14.21.59:769][964]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Stockroom_BuiltData" FILE="../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Maps/Stockroom_BuiltData.uasset" SILENT=true
+[2020.05.24-14.21.59:879][964]LogSavePackage: Moving '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/Stockroom_BuiltData58946D4248622F01F53DBBB7CCEB8950.tmp' to '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Maps/Stockroom_BuiltData.uasset'
+[2020.05.24-14.21.59:912][964]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.24-14.21.59:913][964]LogContentValidation: Display: Validating World /Game/Maps/Stockroom.Stockroom
+[2020.05.24-14.21.59:913][964]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Stockroom_BuiltData.Stockroom_BuiltData
+[2020.05.24-14.22.09:270][259]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (SK_AR8)
+[2020.05.24-14.22.22:636][631]Cmd: SELECT NONE
+[2020.05.24-14.22.24:048][677]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder3)
+[2020.05.24-14.22.51:742][450]Cmd: SELECT NONE
+[2020.05.24-14.22.53:062][486]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2020.05.24-14.22.53:273][486]LogSavePackage: Moving '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/Stockroom83ACFE464C8C2D442C6E2E8041260573.tmp' to '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Maps/Stockroom.umap'
+[2020.05.24-14.22.53:308][486]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Stockroom_BuiltData" FILE="../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Maps/Stockroom_BuiltData.uasset" SILENT=true
+[2020.05.24-14.22.53:410][486]LogSavePackage: Moving '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/Stockroom_BuiltData8205BD704ECFB95EA7DA1BA92B0C186F.tmp' to '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Maps/Stockroom_BuiltData.uasset'
+[2020.05.24-14.22.53:437][486]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.24-14.22.53:438][486]LogContentValidation: Display: Validating World /Game/Maps/Stockroom.Stockroom
+[2020.05.24-14.22.53:438][486]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Stockroom_BuiltData.Stockroom_BuiltData
+[2020.05.24-14.22.54:156][510]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder)
+[2020.05.24-14.22.55:797][556]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2020.05.24-14.22.56:470][572]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder3)
+[2020.05.24-14.22.56:795][578]Cmd: DELETE
+[2020.05.24-14.22.56:795][578]Cmd: ACTOR DELETE
+[2020.05.24-14.22.56:812][578]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.05.24-14.22.56:893][578]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2020.05.24-14.22.56:895][578]LogEditorActor: Deleted 1 Actors (0.100 secs)
+[2020.05.24-14.22.57:756][603]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2020.05.24-14.22.57:978][603]LogSavePackage: Moving '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/StockroomE9C1F9FE448140D4733A7EB5F8732C54.tmp' to '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Maps/Stockroom.umap'
+[2020.05.24-14.22.58:013][603]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Stockroom_BuiltData" FILE="../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Maps/Stockroom_BuiltData.uasset" SILENT=true
+[2020.05.24-14.22.58:122][603]LogSavePackage: Moving '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/Stockroom_BuiltData2FB449094037749021C3E7A4270AB5C8.tmp' to '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Maps/Stockroom_BuiltData.uasset'
+[2020.05.24-14.22.58:148][603]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.24-14.22.58:148][603]LogContentValidation: Display: Validating World /Game/Maps/Stockroom.Stockroom
+[2020.05.24-14.22.58:148][603]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Stockroom_BuiltData.Stockroom_BuiltData
+[2020.05.24-14.22.58:752][626]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder)
+[2020.05.24-14.22.59:686][652]Cmd: EDIT COPY
+[2020.05.24-14.22.59:989][659]Cmd: EDIT PASTE
+[2020.05.24-14.23.11:986][ 10]Cmd: TRANSACTION UNDO
+[2020.05.24-14.23.11:986][ 10]LogEditorTransaction: Undo Move Actors
+[2020.05.24-14.23.14:014][ 61]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (SK_KA74U_X9)
+[2020.05.24-14.23.15:535][101]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder3)
+[2020.05.24-14.23.19:567][211]LogUObjectHash: Compacting FUObjectHashTables data took   5.68ms
+[2020.05.24-14.23.19:769][211]LogSavePackage: Moving '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/Stockroom7E66486B4935825814C3B3B3B00E6737.tmp' to '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Maps/Stockroom.umap'
+[2020.05.24-14.23.19:807][211]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Stockroom_BuiltData" FILE="../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Maps/Stockroom_BuiltData.uasset" SILENT=true
+[2020.05.24-14.23.19:910][211]LogSavePackage: Moving '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/Stockroom_BuiltDataCF79A2ED4051C224444A61AAE89DA3B1.tmp' to '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Maps/Stockroom_BuiltData.uasset'
+[2020.05.24-14.23.19:952][211]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.24-14.23.19:952][211]LogContentValidation: Display: Validating World /Game/Maps/Stockroom.Stockroom
+[2020.05.24-14.23.19:952][211]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Stockroom_BuiltData.Stockroom_BuiltData
+[2020.05.24-14.23.26:854][418]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder4)
+[2020.05.24-14.23.27:546][436]Cmd: DELETE
+[2020.05.24-14.23.27:546][436]Cmd: ACTOR DELETE
+[2020.05.24-14.23.27:563][436]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.05.24-14.23.27:649][436]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2020.05.24-14.23.27:652][436]LogEditorActor: Deleted 1 Actors (0.106 secs)
+[2020.05.24-14.23.28:955][477]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder3)
+[2020.05.24-14.23.29:881][502]Cmd: EDIT COPY
+[2020.05.24-14.23.30:238][512]Cmd: EDIT PASTE
+[2020.05.24-14.23.37:277][709]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder3)
+[2020.05.24-14.23.48:926][ 29]LogUObjectHash: Compacting FUObjectHashTables data took   6.04ms
+[2020.05.24-14.23.49:130][ 29]LogSavePackage: Moving '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/StockroomD2B977A8419EA619BACBFA88FB7CB98C.tmp' to '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Maps/Stockroom.umap'
+[2020.05.24-14.23.49:167][ 29]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Stockroom_BuiltData" FILE="../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Maps/Stockroom_BuiltData.uasset" SILENT=true
+[2020.05.24-14.23.49:278][ 29]LogSavePackage: Moving '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/Stockroom_BuiltData088F326B482236B0038ECBA276927EC0.tmp' to '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Maps/Stockroom_BuiltData.uasset'
+[2020.05.24-14.23.49:311][ 29]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.24-14.23.49:311][ 29]LogContentValidation: Display: Validating World /Game/Maps/Stockroom.Stockroom
+[2020.05.24-14.23.49:311][ 29]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Stockroom_BuiltData.Stockroom_BuiltData
+[2020.05.24-14.23.50:701][ 65]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder4)
+[2020.05.24-14.23.55:877][203]Cmd: SELECT NONE
+[2020.05.24-14.23.56:964][231]LogUObjectHash: Compacting FUObjectHashTables data took   4.85ms
+[2020.05.24-14.23.57:170][231]LogSavePackage: Moving '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/StockroomC777A34945E8A164AB8104AECD2AE817.tmp' to '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Maps/Stockroom.umap'
+[2020.05.24-14.23.57:206][231]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Stockroom_BuiltData" FILE="../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Maps/Stockroom_BuiltData.uasset" SILENT=true
+[2020.05.24-14.23.57:322][231]LogSavePackage: Moving '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/Stockroom_BuiltData294C0C47432D7215011A1B8B4C72BE72.tmp' to '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Maps/Stockroom_BuiltData.uasset'
+[2020.05.24-14.23.57:347][231]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.24-14.23.57:347][231]LogContentValidation: Display: Validating World /Game/Maps/Stockroom.Stockroom
+[2020.05.24-14.23.57:347][231]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Stockroom_BuiltData.Stockroom_BuiltData
+[2020.05.24-14.24.00:869][343]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (SK_KA74U_X)
+[2020.05.24-14.24.01:770][362]Cmd: SELECT NONE
+[2020.05.24-14.24.05:477][472]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (SK_KA74U_X)
+[2020.05.24-14.24.06:371][497]Cmd: EDIT COPY
+[2020.05.24-14.24.06:711][505]Cmd: EDIT PASTE
+[2020.05.24-14.24.08:560][557]Cmd: EDIT COPY
+[2020.05.24-14.24.08:898][567]Cmd: EDIT PASTE
+[2020.05.24-14.24.10:776][619]Cmd: EDIT COPY
+[2020.05.24-14.24.11:107][627]Cmd: EDIT PASTE
+[2020.05.24-14.24.12:609][668]Cmd: SELECT NONE
+[2020.05.24-14.24.13:219][683]LogUObjectHash: Compacting FUObjectHashTables data took   4.62ms
+[2020.05.24-14.24.13:451][683]LogSavePackage: Moving '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/Stockroom264DD2B6441DFE9EFDC96A92B6215A3C.tmp' to '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Maps/Stockroom.umap'
+[2020.05.24-14.24.13:489][683]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Stockroom_BuiltData" FILE="../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Maps/Stockroom_BuiltData.uasset" SILENT=true
+[2020.05.24-14.24.13:594][683]LogSavePackage: Moving '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/Stockroom_BuiltDataC3C44677444508F0DF844E86F8D4BC9E.tmp' to '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Maps/Stockroom_BuiltData.uasset'
+[2020.05.24-14.24.13:618][683]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.24-14.24.13:618][683]LogContentValidation: Display: Validating World /Game/Maps/Stockroom.Stockroom
+[2020.05.24-14.24.13:618][683]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Stockroom_BuiltData.Stockroom_BuiltData
+[2020.05.24-14.24.17:030][784]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (SK_KA74U_X12)
+[2020.05.24-14.24.17:767][804]Cmd: DELETE
+[2020.05.24-14.24.17:767][804]Cmd: ACTOR DELETE
+[2020.05.24-14.24.17:786][804]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2020.05.24-14.24.17:870][804]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2020.05.24-14.24.17:872][804]LogEditorActor: Deleted 1 Actors (0.104 secs)
+[2020.05.24-14.24.18:970][836]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2020.05.24-14.24.19:182][836]LogSavePackage: Moving '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/Stockroom3521433D46BB5D8EEBA9E485A69DF1AB.tmp' to '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Maps/Stockroom.umap'
+[2020.05.24-14.24.19:218][836]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Stockroom_BuiltData" FILE="../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Maps/Stockroom_BuiltData.uasset" SILENT=true
+[2020.05.24-14.24.19:321][836]LogSavePackage: Moving '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/Stockroom_BuiltDataD3A822044A6737E2339F7C88E27C2DA6.tmp' to '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Maps/Stockroom_BuiltData.uasset'
+[2020.05.24-14.24.19:347][836]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.24-14.24.19:347][836]LogContentValidation: Display: Validating World /Game/Maps/Stockroom.Stockroom
+[2020.05.24-14.24.19:347][836]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Stockroom_BuiltData.Stockroom_BuiltData
+[2020.05.24-14.24.21:200][891]LogUObjectHash: Compacting FUObjectHashTables data took   5.70ms
+[2020.05.24-14.24.21:398][891]LogSavePackage: Moving '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/Stockroom0EF138D643613C0526034FB0699BE32E.tmp' to '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Maps/Stockroom.umap'
+[2020.05.24-14.24.21:432][891]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Stockroom_BuiltData" FILE="../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Maps/Stockroom_BuiltData.uasset" SILENT=true
+[2020.05.24-14.24.21:538][891]LogSavePackage: Moving '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/Stockroom_BuiltDataADF39BAC47EEE640D552FCAABB0B21B6.tmp' to '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Maps/Stockroom_BuiltData.uasset'
+[2020.05.24-14.24.21:568][891]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.24-14.24.21:568][891]LogContentValidation: Display: Validating World /Game/Maps/Stockroom.Stockroom
+[2020.05.24-14.24.21:568][891]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Stockroom_BuiltData.Stockroom_BuiltData
+[2020.05.24-14.24.48:015][646]Cmd: SELECT NONE
+[2020.05.24-14.24.53:748][843]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (SK_G67)
+[2020.05.24-14.25.10:428][346]Cmd: SELECT NONE
+[2020.05.24-14.25.12:750][421]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2020.05.24-14.25.12:982][421]LogSavePackage: Moving '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/Stockroom5B7C353847117B6D582D41BD3A4CB6F6.tmp' to '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Maps/Stockroom.umap'
+[2020.05.24-14.25.13:020][421]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Stockroom_BuiltData" FILE="../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Maps/Stockroom_BuiltData.uasset" SILENT=true
+[2020.05.24-14.25.13:124][421]LogSavePackage: Moving '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/Stockroom_BuiltData0EAE83634A2ECEACE3BB6F9AA1A2EAB0.tmp' to '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Maps/Stockroom_BuiltData.uasset'
+[2020.05.24-14.25.13:156][421]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.24-14.25.13:156][421]LogContentValidation: Display: Validating World /Game/Maps/Stockroom.Stockroom
+[2020.05.24-14.25.13:156][421]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Stockroom_BuiltData.Stockroom_BuiltData
+[2020.05.24-14.26.42:011][796]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.05.24-14.26.42:011][796]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.05.24-14.26.43:679][853]AssetReimport: New page: Outstanding source content changes 8:26:43 PM
+[2020.05.24-14.26.43:770][854]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Meshes/Flare/FlareGunShort.fbx)
+[2020.05.24-14.26.43:801][854]LogFbx: Loading FBX Scene from C:/Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Meshes/Flare/FlareGunShort.fbx
+[2020.05.24-14.26.43:833][854]LogFbx: FBX Scene Loaded Succesfully
+[2020.05.24-14.26.45:296][854]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.05.24-14.26.45:441][854]LogStaticMesh: Building static mesh FlareGunShort_FlareGunShort_Frame...
+[2020.05.24-14.26.45:538][854]LogStaticMesh: Built static mesh [0.10s] /Game/Meshes/Flare/FlareGunShort_FlareGunShort_Frame.FlareGunShort_FlareGunShort_Frame
+[2020.05.24-14.26.45:579][854]LogStaticMesh: Building static mesh FlareGunShort_FlareGunShort_Trigger...
+[2020.05.24-14.26.45:585][854]LogStaticMesh: Built static mesh [0.01s] /Game/Meshes/Flare/FlareGunShort_FlareGunShort_Trigger.FlareGunShort_FlareGunShort_Trigger
+[2020.05.24-14.26.45:608][854]LogStaticMesh: Building static mesh FlareGunShort_FlareGunShort_Barrel...
+[2020.05.24-14.26.45:632][854]LogStaticMesh: Built static mesh [0.02s] /Game/Meshes/Flare/FlareGunShort_FlareGunShort_Barrel.FlareGunShort_FlareGunShort_Barrel
+[2020.05.24-14.26.45:660][854]LogStaticMesh: Building static mesh FlareGunShort_FlareGunShort_Hammer...
+[2020.05.24-14.26.45:676][854]LogStaticMesh: Built static mesh [0.02s] /Game/Meshes/Flare/FlareGunShort_FlareGunShort_Hammer.FlareGunShort_FlareGunShort_Hammer
+[2020.05.24-14.26.45:837][855]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Meshes/Flare/FlareGun.fbx)
+[2020.05.24-14.26.45:858][855]LogFbx: Loading FBX Scene from C:/Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Meshes/Flare/FlareGun.fbx
+[2020.05.24-14.26.45:880][855]LogFbx: FBX Scene Loaded Succesfully
+[2020.05.24-14.26.47:591][855]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.05.24-14.26.47:692][855]LogStaticMesh: Building static mesh FlareGun_FlareGun_Frame...
+[2020.05.24-14.26.47:801][855]LogStaticMesh: Built static mesh [0.11s] /Game/Meshes/Flare/FlareGun_FlareGun_Frame.FlareGun_FlareGun_Frame
+[2020.05.24-14.26.47:869][855]LogStaticMesh: Building static mesh FlareGun_FlareGun_Barrel...
+[2020.05.24-14.26.47:910][855]LogStaticMesh: Built static mesh [0.04s] /Game/Meshes/Flare/FlareGun_FlareGun_Barrel.FlareGun_FlareGun_Barrel
+[2020.05.24-14.26.47:941][855]LogStaticMesh: Building static mesh FlareGun_FlareGun_Hammer...
+[2020.05.24-14.26.47:960][855]LogStaticMesh: Built static mesh [0.02s] /Game/Meshes/Flare/FlareGun_FlareGun_Hammer.FlareGun_FlareGun_Hammer
+[2020.05.24-14.26.47:982][855]LogStaticMesh: Building static mesh FlareGun_FlareGun_Trigger...
+[2020.05.24-14.26.47:989][855]LogStaticMesh: Built static mesh [0.01s] /Game/Meshes/Flare/FlareGun_FlareGun_Trigger.FlareGun_FlareGun_Trigger
+[2020.05.24-14.26.48:083][856]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Meshes/Flare/Flare_Short.fbx)
+[2020.05.24-14.26.48:103][856]LogFbx: Loading FBX Scene from C:/Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Meshes/Flare/Flare_Short.fbx
+[2020.05.24-14.26.48:114][856]LogFbx: FBX Scene Loaded Succesfully
+[2020.05.24-14.26.49:644][856]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.05.24-14.26.49:672][856]LogStaticMesh: Building static mesh Flare_Short...
+[2020.05.24-14.26.49:681][856]LogStaticMesh: Built static mesh [0.01s] /Game/Meshes/Flare/Flare_Short.Flare_Short
+[2020.05.24-14.26.49:727][857]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Meshes/Flare/Flare_Long.fbx)
+[2020.05.24-14.26.49:736][857]LogFbx: Loading FBX Scene from C:/Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Meshes/Flare/Flare_Long.fbx
+[2020.05.24-14.26.49:741][857]LogFbx: FBX Scene Loaded Succesfully
+[2020.05.24-14.26.50:691][857]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.05.24-14.26.50:712][857]LogStaticMesh: Building static mesh Flare_Long...
+[2020.05.24-14.26.50:722][857]LogStaticMesh: Built static mesh [0.01s] /Game/Meshes/Flare/Flare_Long.Flare_Long
+[2020.05.24-14.26.50:791][858]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/Flare/FlareGunShort" FILE="../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Meshes/Flare/FlareGunShort.uasset" SILENT=true
+[2020.05.24-14.26.50:793][858]LogSavePackage: Moving '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/FlareGunShort8B4333124E023DD716213CAF0C845381.tmp' to '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Meshes/Flare/FlareGunShort.uasset'
+[2020.05.24-14.26.50:820][858]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/Flare/FlareGun" FILE="../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Meshes/Flare/FlareGun.uasset" SILENT=true
+[2020.05.24-14.26.50:837][858]LogSavePackage: Moving '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/FlareGunDE5F21614BDA560A742F35BF0BFCB13A.tmp' to '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Meshes/Flare/FlareGun.uasset'
+[2020.05.24-14.26.50:859][858]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/Flare/Flare_Short" FILE="../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Meshes/Flare/Flare_Short.uasset" SILENT=true
+[2020.05.24-14.26.50:880][858]LogSavePackage: Moving '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/Flare_Short9F674E114C2C7F2CE7F2599FC10624E3.tmp' to '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Meshes/Flare/Flare_Short.uasset'
+[2020.05.24-14.26.50:902][858]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/Flare/Flare_Long" FILE="../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Meshes/Flare/Flare_Long.uasset" SILENT=true
+[2020.05.24-14.26.50:922][858]LogSavePackage: Moving '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/Flare_Long2EF30F5A47527E60D4CB629B94FC37AB.tmp' to '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Meshes/Flare/Flare_Long.uasset'
+[2020.05.24-14.26.51:072][859]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.24-14.26.51:072][859]LogContentValidation: Display: Validating Material /Game/Meshes/Flare/FlareGun.FlareGun
+[2020.05.24-14.26.51:072][859]LogContentValidation: Display: Validating StaticMesh /Game/Meshes/Flare/Flare_Short.Flare_Short
+[2020.05.24-14.26.51:072][859]LogContentValidation: Display: Validating StaticMesh /Game/Meshes/Flare/Flare_Long.Flare_Long
+[2020.05.24-14.26.52:255][895]LogSlate: Window 'Message Log' being destroyed
+[2020.05.24-14.26.52:298][895]LogSlate: Window 'Message Log' being destroyed
+[2020.05.24-14.26.53:951][949]AssetReimport: Importing new asset /Game/Meshes/Flare/FlareGunShort.
+[2020.05.24-14.26.53:951][949]AssetReimport: Importing new asset /Game/Meshes/Flare/FlareGun.
+[2020.05.24-14.26.53:951][949]AssetReimport: Importing new asset /Game/Meshes/Flare/Flare_Short.
+[2020.05.24-14.26.53:951][949]AssetReimport: Importing new asset /Game/Meshes/Flare/Flare_Long.
+[2020.05.24-14.26.54:433][958]LogUObjectHash: Compacting FUObjectHashTables data took   5.43ms
+[2020.05.24-14.26.54:648][958]LogSavePackage: Moving '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/Stockroom1C60C7FA48889383C425448DA890C69D.tmp' to '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Maps/Stockroom.umap'
+[2020.05.24-14.26.54:680][958]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Stockroom_BuiltData" FILE="../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Maps/Stockroom_BuiltData.uasset" SILENT=true
+[2020.05.24-14.26.54:778][958]LogSavePackage: Moving '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Saved/Stockroom_BuiltData54DF62D448EE9CBBB49CB48FFF17614C.tmp' to '../../../../../../Users/Pavel/Documents/Unreal Projects/MatrixUnrealEngine/Content/Maps/Stockroom_BuiltData.uasset'
+[2020.05.24-14.26.54:803][958]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.24-14.26.54:803][958]LogContentValidation: Display: Validating World /Game/Maps/Stockroom.Stockroom
+[2020.05.24-14.26.54:803][958]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Stockroom_BuiltData.Stockroom_BuiltData
